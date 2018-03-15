@@ -13,6 +13,7 @@ const argv = JSON.parse(process.env.npm_config_argv).original;
 var args  = argv.slice(2);
 
 let arg = check(args);
+console.log(1)
 if(arg){
     let _path = getFilePath(arg);
     console.log(chalk.green(_path))
