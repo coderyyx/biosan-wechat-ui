@@ -1,0 +1,31 @@
+{
+  "name": "bs-ui",
+  "version": "0.0.1",
+  "description": "weichat components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coderyyx/biosan-wei-UI.git"
+  },
+  "keywords": [
+    "weichat",
+    "components"
+  ],
+  "author": "frontEndTream of BioSan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coderyyx/biosan-wei-UI/issues"
+  },
+  "homepage": "https://github.com/coderyyx/biosan-wei-UI#readme",
+  "devDependencies": {
+    "fs-extra": "^5.0.0",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.3",
+    "gulp-less": "^4.0.0",
+    "gulp-rename": "^1.2.2",
+    "path": "^0.12.7"
+  }
+}
