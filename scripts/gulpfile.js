@@ -1,20 +1,21 @@
 var gulp = require('gulp');
 var less = require('gulp-less');
 var fs = require('fs-extra');
+// clean = require('gulp-clean');
+var parseArgs = require('minimist')(process.argv);
 var cssmin = require('gulp-clean-css');
 var rename = require('gulp-rename');
 var path = require('path');
 
 const filePath = require("./config");
 
-// const distPath = path.resolve(__dirname, './dist');
-console.log(filePath);
+let { dist } = parseArgs;
 
-gulp.task('buildLess', function () {
+gulp.task('build', function () {
     //同步
-    fs.emptyDirSync(filePath.dist);
+    fs.emptyDirSync(dist);
 
-	return gulp.src('../components/**/*.less')
+	return gulp.src(['../components/**/*.less','!../components/**/_*.less'])
     .pipe(less())
     //压缩css
     // .pipe(cssmin())
@@ -22,13 +23,13 @@ gulp.task('buildLess', function () {
         //修改文件后缀
         path.extname = '.wxss';
       }))
-	.pipe(gulp.dest(filePath.dist));
+	.pipe(gulp.dest(dist));
 
 });
 
 //warcher
-var watcher = gulp.watch('../components/**/*.less', ['buildLess']);
+var watcher = gulp.watch('../components/**/*.less', ['build']);
 
 watcher.on('change', function(event) {
-  console.log('File ' + event.path + ' was ' + event.type + ', running tasks...');
+  console.log('\n'+'File ' + event.path + ' was ' + event.type + ', running tasks...'+'\n');
 });

@@ -4,7 +4,7 @@
   "description": "weichat components",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node ./scripts/build.js"
   },
   "repository": {
     "type": "git",
@@ -21,11 +21,16 @@
   },
   "homepage": "https://github.com/coderyyx/biosan-wei-UI#readme",
   "devDependencies": {
+    "chalk": "^2.3.2",
+    "child_process": "^1.0.2",
     "fs-extra": "^5.0.0",
     "gulp": "^3.9.1",
     "gulp-clean-css": "^3.9.3",
     "gulp-less": "^4.0.0",
     "gulp-rename": "^1.2.2",
-    "path": "^0.12.7"
+    "minimist": "^1.2.0",
+    "path": "^0.12.7",
+    "shelljs": "^0.8.1",
+    "shelljs.exec": "^1.1.7"
   }
 }
