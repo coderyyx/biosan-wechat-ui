@@ -146,13 +146,13 @@
   }
 }
 /* disabled */
-.bs-btn.bs-btn-disabled {
+.bs-btn-disabled {
   color: #999 ! important;
   background: #f8f8f8 ! important;
   border-color: #e5e5e5 ! important;
   cursor: not-allowed ! important;
   opacity: 1 ! important;
 }
-.bs-btn.bs-btn-disabled::after {
+.bs-btn-disabled::after {
   border-color: #e5e5e5 ! important;
 }

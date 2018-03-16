@@ -14,6 +14,8 @@
 
 使用微信开发者工具打开 weiChatWebsite 目录
 
+初次开发运行 npm install 安装开发依赖
+
 构建项目运行 npm run build dist
 
 构建weiChatWebsite 运行 npm run build weichatDemo
