@@ -1,14 +1,17 @@
 /* define global variables */
 @black: #000;
 @white: #fff;
-@red: #f44;
+@danger: #f44;
+@danger-border:#e33;
 @blue: #38f;
 @orange: #f60;
-@green: #06bf04;
+@green: #1AAD19;
+@green-border:#0a0;
 @gray: #c9c9c9;
 @gray-light: #e5e5e5;
 @gray-darker: #666;
 @gray-dark: #999;
+@warn:#f85;
 
 /* default colors */
 @text-color: #333;
@@ -18,18 +21,24 @@
 
 /* button variables*/
 @button-default-color: @text-color;
-@button-default-background-color: @white;
+@button-default-bgc: @white;
 @button-default-border-color: @gray-light;
+
 @button-primary-color: @white;
-@button-primary-background-color: #4b0;
-@button-primary-border-color: #0a0;
+@button-primary-bgc: @green;
+@button-primary-border-color: @green-border;
+
 @button-danger-color: @white;
-@button-danger-background-color: @red;
-@button-danger-border-color: #e33;
+@button-danger-bgc: @danger;
+@button-danger-border-color: @danger-border;
+
+@button-warn-color:@warn;
+@button-warn-bgc:@warn;
+
 @button-disabled-color: @gray-dark;
-@button-disabled-background-color: @gray-light;
+@button-disabled-bgc: @gray-light;
 @button-disabled-border-color: @border-color;
 @button-bottom-action-default-color: @white;
-@button-bottom-action-default-background-color: #f85;
+@button-bottom-action-default-bgc: @warn;
 @button-bottom-action-primary-color: @white;
-@button-bottom-action-primary-background-color: @red;
+@button-bottom-action-primary-bgc: @danger;

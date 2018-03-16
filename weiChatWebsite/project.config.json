@@ -9,8 +9,8 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "1.9.91",
-	"appid": "touristappid",
-	"projectname": "biosan-wei-UI",
+	"appid": "wx0da7e77467400a25",
+	"projectname": "biosanWeUI",
 	"condition": {
 		"search": {
 			"current": -1,

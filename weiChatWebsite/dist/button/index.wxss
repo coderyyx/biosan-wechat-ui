@@ -1,6 +1,3 @@
-/* define global variables */
-/* default colors */
-/* button variables*/
 .other-mixin {
   content: '';
   position: absolute;
@@ -14,6 +11,9 @@
   box-sizing: border-box;
   border: 0 solid #e5e5e5;
 }
+/* define global variables */
+/* default colors */
+/* button variables*/
 .bs-btn {
   position: relative;
   color: #333;
@@ -49,29 +49,29 @@
   margin: 15px;
 }
 /* type */
-.bs-btn--primary {
+.bs-btn-primary {
   color: #fff;
-  background-color: #4b0;
+  background-color: #1AAD19;
 }
-.bs-btn--primary::after {
+.bs-btn-primary::after {
   border-color: #0a0;
 }
-.bs-btn--warn {
+.bs-btn-warn {
   color: #fff;
   background-color: #f85;
 }
-.bs-btn--warn::after {
+.bs-btn-warn::after {
   border-color: #f85;
 }
-.bs-btn--danger {
+.bs-btn-danger {
   color: #fff;
   background-color: #f44;
 }
-.bs-btn--danger::after {
+.bs-btn-danger::after {
   border-color: #e33;
 }
 /* size */
-.bs-btn--small {
+.bs-btn-small {
   display: inline-block;
   height: 30px;
   line-height: 30px;
@@ -79,7 +79,7 @@
   margin-right: 5px;
   margin-bottom: 0;
 }
-.bs-btn--mini {
+.bs-btn-mini {
   display: inline-block;
   line-height: 21px;
   height: 22px;
@@ -89,7 +89,7 @@
   padding-left: 5px;
   padding-right: 5px;
 }
-.bs-btn--large {
+.bs-btn-large {
   border-radius: 0;
   margin-bottom: 0;
   border: none;
@@ -97,28 +97,26 @@
   height: 50px;
 }
 /* plain */
-.bs-btn--plain.bs-btn {
+.bs-btn-plain.bs-btn {
   background-color: transparent;
 }
-.bs-btn--plain.bs-btn--primary {
+.bs-btn-plain.bs-btn-primary {
   color: #06BF04;
 }
-.bs-btn--plain.bs-btn--warn {
+.bs-btn-plain.bs-btn-warn {
   color: #FF6600;
 }
-.bs-btn--plain.bs-btn--danger {
+.bs-btn-plain.bs-btn-danger {
   color: #FF4444;
 }
-/* 重写button组件的button-hover样式 */
 .button-hover {
   opacity: 0.9;
 }
 /* loading */
-.bs-btn--loading {
-  color: transparent;
+.bs-btn-loading {
   opacity: 1;
 }
-.bs-btn--loading::before {
+.bs-btn-loading::before {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -128,18 +126,18 @@
   margin-left: -8px;
   margin-top: -8px;
   border: 3px solid #e5e5e5;
-  border-color: #666 #e5e5e5 #e5e5e5 #e5e5e5;
+  border-color: #666 #292525 #292525 #292525;
   border-radius: 8px;
   box-sizing: border-box;
-  animation: btn-spin 0.6s linear;
+  animation: btn_loading 0.6s linear;
   animation-iteration-count: infinite;
 }
-.bs-btn--primary.bs-btn--loading::before,
-.bs-btn--warn.bs-btn--loading::before,
-.bs-btn--danger.bs-btn--loading::before {
+.bs-btn-primary.bs-btn-loading::before,
+.bs-btn-warn.bs-btn-loading::before,
+.bs-btn-danger.bs-btn-loading::before {
   border-color: #fff rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1);
 }
-@keyframes btn-spin {
+@keyframes btn_loading {
   0% {
     transform: rotate(0);
   }
@@ -148,20 +146,13 @@
   }
 }
 /* disabled */
-.bs-btn.bs-btn--disabled {
-  /* 防止样式被 button[disabled] 的规则覆盖，所以使用了important */
+.bs-btn.bs-btn-disabled {
   color: #999 ! important;
   background: #f8f8f8 ! important;
   border-color: #e5e5e5 ! important;
   cursor: not-allowed ! important;
   opacity: 1 ! important;
 }
-.bs-btn.bs-btn--disabled::after {
+.bs-btn.bs-btn-disabled::after {
   border-color: #e5e5e5 ! important;
-}
-/* :last-child */
-.bs-btn--last-child,
-.bs-btn:last-child {
-  margin-bottom: 0;
-  margin-right: 0;
 }
