@@ -23,6 +23,7 @@
   "devDependencies": {
     "chalk": "^2.3.2",
     "child_process": "^1.0.2",
+    "fs": "0.0.1-security",
     "fs-extra": "^5.0.0",
     "gulp": "^3.9.1",
     "gulp-clean-css": "^3.9.3",
@@ -30,6 +31,7 @@
     "gulp-rename": "^1.2.2",
     "minimist": "^1.2.0",
     "path": "^0.12.7",
+    "rimraf": "^2.6.2",
     "shelljs": "^0.8.1",
     "shelljs.exec": "^1.1.7"
   }

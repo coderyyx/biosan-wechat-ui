@@ -6,14 +6,18 @@ var parseArgs = require('minimist')(process.argv);
 var cssmin = require('gulp-clean-css');
 var rename = require('gulp-rename');
 var path = require('path');
+var _fs = require('fs');
+var rimraf = require('rimraf');
 
+const cwd = process.cwd();
 const filePath = require("./config");
 
 let { dist } = parseArgs;
 
 gulp.task('build', function () {
     //同步
-    fs.emptyDirSync(dist);
+    // fs.emptyDirSync(dist);
+    rimraf.sync(dist);
 
 	return gulp.src(['../components/**/*.less','!../components/**/_*.less'])
     .pipe(less())
@@ -27,9 +31,20 @@ gulp.task('build', function () {
 
 });
 
+gulp.task('weichatWebsite',function(){
+    // fs.emptyDirSync(filePath.weichatDemo);
+    rimraf.sync(filePath.weichatDemo);
+    //copy 打包后的文件至weichatDemo
+    copyFile();
+})
+
 //warcher
 var watcher = gulp.watch('../components/**/*.less', ['build']);
 
 watcher.on('change', function(event) {
   console.log('\n'+'File ' + event.path + ' was ' + event.type + ', running tasks...'+'\n');
 });
+
+function copyFile(){
+    fs.copySync(filePath.dist, filePath.weichatDemo,{});
+}

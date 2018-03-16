@@ -5,6 +5,7 @@ const chalk = require('chalk');
 const filePath = require('./config');
 
 require('shelljs/global');
+
 const argv = JSON.parse(process.env.npm_config_argv).original;
 /**
  * 构建dist  传入dist
@@ -15,9 +16,7 @@ var args  = argv.slice(2);
 let arg = check(args);
 if(arg){
     let _path = getFilePath(arg);
-    console.log(chalk.green(_path))
-    // console.log(child_process)
-    exec(`gulp build --gulpfile scripts/gulpfile.js --dist ${_path} --color`);
+    exec(`gulp ${ arg == 'dist' ? 'build' : 'weichatWebsite' } --gulpfile scripts/gulpfile.js --dist ${_path} --color`);
     console.log(chalk.green("success......."));
 }
 
