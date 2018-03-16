@@ -7,19 +7,22 @@
   <view class="page-body">
     <view class="btn-area" id="buttonContainer">
       <button  class="bs-btn">页面主操作 Normal</button>
+      <button  class="bs-btn bs-btn-primary">页面主操作 Primary</button>
       <button  class="bs-btn bs-btn-primary bs-btn-loading">页面主操作 Loading</button>
       <button  disabled="true" class="bs-btn bs-btn-disabled">页面主操作 Disabled</button>
 
       
 
-      <button type="warn">警告类操作 Normal</button>
-      <button type="warn" disabled="true">警告类操作 Disabled</button>
+      <button class="bs-btn bs-btn-warn">警告类操作 Normal</button>
+      <button class="bs-btn bs-btn-danger">危险操作 Disabled</button>
 
       <view class="button-sp-area">
-        <button type="primary" plain="true">按钮</button>
+        <button class="bs-btn bs-btn-plain">按钮</button>
+        <button class="bs-btn bs-btn-plain bs-btn-plain-warn">warn按钮</button>
+        <button class="bs-btn bs-btn-plain bs-btn-plain-danger">danger按钮</button>
         <button type="primary" disabled="true" plain="true">不可点击的按钮</button>
 
-        <button type="default" plain="true">按钮</button>
+        <button type="warn" >按钮</button>
         <button type="default" disabled="true" plain="true">按钮</button>
 
         <button class="mini-btn" type="primary" size="mini">按钮</button>

@@ -30,6 +30,7 @@
 /* type */
 .bs-btn-primary {
   color: #fff;
+  border-radius: @btn-border-radius;
   background-color: @button-primary-bgc;
 
   &::after {
@@ -83,17 +84,21 @@
 }
 
 /* plain */
-.bs-btn-plain.bs-btn {
+.bs-btn-plain {
   background-color: transparent;
+  color: @green;
+  border: 1px solid @green;
+  border-radius: @btn-border-radius;
 }
-.bs-btn-plain.bs-btn-primary {
-  color: #06BF04;
+.bs-btn-plain-warn {
+  color: @warn;
+  border: 1px solid @warn;
+  border-radius: @btn-border-radius;
 }
-.bs-btn-plain.bs-btn-warn {
-  color: #FF6600;
-}
-.bs-btn-plain.bs-btn-danger {
-  color: #FF4444;
+.bs-btn-plain-danger {
+  color: @danger;
+  border: 1px solid @danger;
+  border-radius: @btn-border-radius;
 }
 
 

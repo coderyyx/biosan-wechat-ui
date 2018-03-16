@@ -12,6 +12,7 @@
   border: 0 solid #e5e5e5;
 }
 /* define global variables */
+/*size*/
 /* default colors */
 /* button variables*/
 .bs-btn {
@@ -51,6 +52,7 @@
 /* type */
 .bs-btn-primary {
   color: #fff;
+  border-radius: 6px;
   background-color: #1AAD19;
 }
 .bs-btn-primary::after {
@@ -65,10 +67,10 @@
 }
 .bs-btn-danger {
   color: #fff;
-  background-color: #f44;
+  background-color: #E64340;
 }
 .bs-btn-danger::after {
-  border-color: #e33;
+  border-color: #E64340;
 }
 /* size */
 .bs-btn-small {
@@ -97,17 +99,21 @@
   height: 50px;
 }
 /* plain */
-.bs-btn-plain.bs-btn {
+.bs-btn-plain {
   background-color: transparent;
+  color: #1AAD19;
+  border: 1px solid #1AAD19;
+  border-radius: 6px;
 }
-.bs-btn-plain.bs-btn-primary {
-  color: #06BF04;
+.bs-btn-plain-warn {
+  color: #f85;
+  border: 1px solid #f85;
+  border-radius: 6px;
 }
-.bs-btn-plain.bs-btn-warn {
-  color: #FF6600;
-}
-.bs-btn-plain.bs-btn-danger {
-  color: #FF4444;
+.bs-btn-plain-danger {
+  color: #E64340;
+  border: 1px solid #E64340;
+  border-radius: 6px;
 }
 .button-hover {
   opacity: 0.9;
