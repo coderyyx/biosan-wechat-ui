@@ -18,4 +18,4 @@
 
 构建weiChatWebsite 运行 npm run build weichatDemo
 
-开发先fork项目，修改bug或开发组件后 提交pull request
+开发先fork项目，修改bug或开发组件后 提交pull request ,描述清楚此次提交做了哪些工作~
