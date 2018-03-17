@@ -1,0 +1,59 @@
+/* demo/page/component/row&col/row&col.wxss */
+.dmeo-body{
+  width:100%;
+flex-grow:1;
+overflow-x:hidden;
+
+}
+
+.descrition{
+  text-indent:2em;
+}
+.row-demo{
+  margin: 10px auto;
+  background-color:#efe8e8;
+  padding: 5px;
+}
+
+.bs-row-12,.bs-row-8,.bs-row-6{
+  margin: 10px 0;
+  color: white;
+}
+.bs-row-offset-6{
+  margin: 10px 0;
+  color: white;
+}
+.bs-col-12:nth-child(odd){
+  background-color: #00a0e9;
+}
+.bs-col-12:nth-child(even){
+  background-color:rgba(0, 160, 233, 0.7);
+}
+
+.bs-col-8:nth-child(odd){
+  background-color: #00a0e9;
+}
+
+.bs-col-8:nth-child(even){
+  background-color:rgba(0, 160, 233, 0.7);
+}
+.bs-col-6:nth-child(odd){
+  background-color: #00a0e9;
+}
+
+.bs-col-6:nth-child(even){
+  background-color:rgba(0, 160, 233, 0.7);
+}
+
+.bs-col-12,.bs-col-8,.bs-col-6{
+  text-align: center;
+}
+
+
+.offset1:nth-child(odd){
+  background-color: #00a0e9;
+}
+
+.offset1:nth-child(even){
+  background-color:rgba(0, 160, 233, 0.7);
+}

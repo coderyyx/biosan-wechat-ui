@@ -3,14 +3,14 @@ Page({
       list: [
         {
           id: 'view',
-          name: '按钮',
+          name: '自定义按钮',
           open: false,
           pages: ['button']
         }, {
           id: 'content',
-          name: '基础内容',
+          name: '栅格系统',
           open: false,
-          pages: ['text', 'icon', 'progress']
+          pages: ['row_col']
         }, {
           id: 'form',
           name: '表单组件',

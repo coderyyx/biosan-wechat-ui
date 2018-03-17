@@ -1,0 +1,45 @@
+<import src="../../common/head.wxml" />
+<import src="../../common/foot.wxml" />
+
+<view class="container">
+  <template is="head" data="{{title: 'grid'}}"/>
+
+  <view class="bs-page-body dmeo-body">
+    <view class="bs-row">
+      <view class="bs-col-24 descrition">
+        我们在 12 栅格系统的基础上，我们将整个设计建议区域按照 24 等分的原则进行划分。
+      </view>
+    </view>
+    <view class="row-demo">基础用法</view>
+    <view class="bs-row bs-row-12">
+      <view class="bs-col-12">bs-col-12</view>
+      <view class="bs-col-12">bs-col-12</view>
+    </view>
+    <view class="bs-row bs-row-8">
+      <view class="bs-col-8">bs-col-8</view>
+      <view class="bs-col-8">bs-col-8</view>
+      <view class="bs-col-8">bs-col-8</view>
+    </view>
+    <view class="bs-row bs-row-6">
+      <view class="bs-col-6">bs-col-6</view>
+      <view class="bs-col-6">bs-col-6</view>
+      <view class="bs-col-6">bs-col-6</view>
+      <view class="bs-col-6">bs-col-6</view>
+    </view>
+    <view class="row-demo">偏移量</view>
+    <view class="bs-row bs-row-offset-6">
+      <view class="bs-col-4 offset1">bs-col-4</view>
+      <view class="bs-col-4 bs-col-offset-4 offset1">offset-4</view>
+      <view class="bs-col-4 offset1">bs-col-4</view>
+      <view class="bs-col-4 bs-col-offset-4 offset1">offset-4</view>
+    </view>
+    <view class="bs-row bs-row-offset-6">
+      <view class="bs-col-6 offset1">bs-col-6</view>
+      <view class="bs-col-10 bs-col-offset-6 offset1">offset-6</view>
+    </view>
+    <view class="row-demo">我们后续要继续完善、支持flex自适应布局功能</view>
+  </view>
+
+  <template is="foot" />
+</view>
+

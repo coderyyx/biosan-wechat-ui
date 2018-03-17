@@ -1,7 +1,8 @@
 {
     "pages": [
       "demo/page/index",
-      "demo/page/component/button/button"
+      "demo/page/component/button/button",
+      "demo/page/component/row_col/row_col"
     ],
     "window": {
       "navigationBarTextStyle": "black",
