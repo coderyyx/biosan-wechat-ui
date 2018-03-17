@@ -20,14 +20,13 @@
         <button class="bs-btn bs-btn-plain">按钮</button>
         <button class="bs-btn bs-btn-plain bs-btn-plain-warn">warn按钮</button>
         <button class="bs-btn bs-btn-plain bs-btn-plain-danger">danger按钮</button>
-        <button type="primary" disabled="true" plain="true">不可点击的按钮</button>
+        <button  disabled="true" plain="true">不可点击的按钮</button>
 
-        <button type="warn" >按钮</button>
-        <button type="default" disabled="true" plain="true">按钮</button>
+        <button  disabled="true" plain="true">按钮</button>
 
-        <button class="mini-btn" type="primary" size="mini">按钮</button>
-        <button class="mini-btn" type="default" size="mini">按钮</button>
-        <button class="mini-btn" type="warn" size="mini">按钮</button>
+        <button class="bs-btn-mini bs-btn-mini-primary">按钮</button>
+        <button class="bs-btn-mini bs-btn-mini-warn"  >警告</button>
+        <button class="bs-btn-mini bs-btn-mini-danger"  >危险</button>
       </view>
     </view>
   </view>

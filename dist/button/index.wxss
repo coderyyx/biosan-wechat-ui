@@ -30,6 +30,7 @@
   text-decoration: none;
   text-align: center;
   vertical-align: middle;
+  border-radius: 6px;
 }
 .bs-btn::after {
   content: '';
@@ -52,7 +53,6 @@
 /* type */
 .bs-btn-primary {
   color: #fff;
-  border-radius: 6px;
   background-color: #00a0e9;
 }
 .bs-btn-primary::after {
@@ -83,13 +83,10 @@
 }
 .bs-btn-mini {
   display: inline-block;
-  line-height: 21px;
-  height: 22px;
-  font-size: 10px;
-  margin-right: 5px;
-  margin-bottom: 0;
-  padding-left: 5px;
-  padding-right: 5px;
+  line-height: 2.3;
+  font-size: 13px;
+  padding: 0 1.34em;
+  color: #fff;
 }
 .bs-btn-large {
   border-radius: 0;
@@ -161,4 +158,13 @@
 }
 .bs-btn-disabled::after {
   border-color: #e5e5e5 ! important;
+}
+.bs-btn-mini-primary {
+  background-color: #00a0e9;
+}
+.bs-btn-mini-warn {
+  background-color: #f85;
+}
+.bs-btn-mini-danger {
+  background-color: #E64340;
 }

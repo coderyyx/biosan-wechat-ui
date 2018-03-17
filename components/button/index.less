@@ -16,6 +16,7 @@
   text-decoration: none;
   text-align: center;
   vertical-align: middle;
+  border-radius: @btn-border-radius;
 }
 .bs-btn::after {
     // mixins
@@ -30,7 +31,7 @@
 /* type */
 .bs-btn-primary {
   color: #fff;
-  border-radius: @btn-border-radius;
+  
   background-color: @button-primary-bgc;
 
   &::after {
@@ -66,14 +67,12 @@
   margin-bottom: 0;
 }
 .bs-btn-mini {
-  display: inline-block;
-  line-height: 21px;
-  height: 22px;
-  font-size: 10px;
-  margin-right: 5px;
-  margin-bottom: 0;
-  padding-left: 5px;
-  padding-right: 5px;
+  display:inline-block;
+line-height:2.3;
+font-size:13px;
+padding:0 1.34em;
+color: @white;
+
 }
 .bs-btn-large {
   border-radius: 0;
@@ -153,6 +152,16 @@
   &::after {
     border-color: #e5e5e5 ! important;
   }
+}
+
+.bs-btn-mini-primary{
+  background-color: @green;
+}
+.bs-btn-mini-warn{
+  background-color: @warn;
+}
+.bs-btn-mini-danger{
+  background-color: @danger;
 }
 
 
