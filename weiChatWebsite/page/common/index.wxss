@@ -16,7 +16,7 @@
 .index-desc {
   margin-top: 20rpx;
   color: #888888;
-  font-size: 28rpx;
+  font-size: 32rpx;
 }
 
 

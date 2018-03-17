@@ -7,15 +7,27 @@ Page({
           open: false,
           pages: ['button']
         }, {
-          id: 'content',
+          id: 'grid',
           name: '栅格系统',
           open: false,
           pages: ['row_col']
         }, {
-          id: 'form',
-          name: '表单组件',
+          id: 'basic',
+          name: '基础组件',
           open: false,
-          pages: ['button', 'checkbox', 'form', 'input', 'label', 'picker', 'radio', 'slider', 'switch', 'textarea']
+          pages: ['avatar', 'badge', 'loadmore','card','list','select','toptip']
+        },
+         {
+          id: 'func',
+          name: '功能组件',
+          open: false,
+          pages: ['progress', 'steps', 'loading', 'mask', 'dialog', 'popup', 'toast','actionSheet']
+        },
+        {
+          id: 'compose',
+          name: '组合组件',
+          open: false,
+          pages: ['cascader','searchbar','navbar']
         }
       ]
     },

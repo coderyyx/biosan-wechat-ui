@@ -1,0 +1,7 @@
+/* demo/page/component/loadmore/loadmore.wxss */
+.dmeo-body{
+    width:100%;
+  flex-grow:1;
+  overflow-x:hidden;
+  
+  }

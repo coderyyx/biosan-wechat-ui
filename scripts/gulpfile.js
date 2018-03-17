@@ -18,14 +18,10 @@ let { dist } = parseArgs;
 gulp.task('build', function (err) {
     //同步
     fs.emptyDirSync(filePath.dist);
-    // if(err){
-    //     console.log(chalk.red('fail.......'));
-    //     // process.exit(0);
-    // }
     // rimraf.sync(dist);
+    copyFile(filePath.src,filePath.dist);
 
     return gulp.src(['../components/**/*.less','!../components/**/_*.less'])
-    // ,'!../components/**/_*.less'
     .pipe(less())
     //压缩css
     // .pipe(cssmin())
@@ -38,9 +34,8 @@ gulp.task('build', function (err) {
 
 gulp.task('weichatWebsite',['build'],function(){
     fs.emptyDirSync(filePath.weichatDemo);
-    // rimraf.sync(filePath.weichatDemo);
     //copy 打包后的文件至weichatDemo
-    copyFile();
+    copyFile(filePath.dist,filePath.weichatDemo);
 })
 
 //warcher
@@ -50,6 +45,11 @@ watcher.on('change', function(event) {
   console.log('\n'+'File ' + event.path + ' was ' + event.type + ', running tasks...'+'\n');
 });
 
-function copyFile(){
-    fs.copySync(filePath.dist, filePath.weichatDemo);
+function copyFile(source,target){
+    fs.copySync(source, target, {
+        filter(src) {
+          const extname = path.extname(src);
+          return ['.less'].indexOf(extname) < 0;
+        }
+      });
 }

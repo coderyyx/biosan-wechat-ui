@@ -1,7 +1,8 @@
 <view class="index">
   <view class="index-hd">
     <image class="index-logo" src="../image/biosan_kit.png"></image>
-    <view class="index-desc">biosan前端团队 --微信小程序组件库 --基于小程序组件库快速开发微信小程序</view>
+    <view class="index-desc">biosan前端团队</view>
+    <view class='index-desc'>基于组件库快速开发微信小程序</view>
   </view>
   <view class="index-bd">
     <view class="kind-list">

@@ -7,7 +7,7 @@
   <view class="bs-page-body dmeo-body">
     <view class="bs-row">
       <view class="bs-col-24 descrition">
-        我们在 12 栅格系统的基础上，我们将整个设计建议区域按照 24 等分的原则进行划分。
+        在移动端我们要划分更细的颗粒度，在综合考虑后我们将整个设计区域按照 24 等分进行划分。
       </view>
     </view>
     <view class="row-demo">基础用法</view>
