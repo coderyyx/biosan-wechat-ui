@@ -3,7 +3,8 @@
       "page/index",
       "page/component/button/button",
       "page/component/row_col/row_col",
-      "page/component/loadmore/loadmore"
+      "page/component/loadmore/loadmore",
+      "page/component/icon/icon"
     ],
     "window": {
       "navigationBarTextStyle": "black",

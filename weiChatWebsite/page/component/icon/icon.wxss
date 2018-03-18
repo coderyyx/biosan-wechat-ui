@@ -1,0 +1,27 @@
+.dmeo-body{
+    width:100%;
+  flex-grow:1;
+  overflow-x:hidden;
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start; */
+  }
+
+   .dmeo-body::after{
+    content: "";
+    display:block;
+    clear: both;
+  } 
+  .bs-icon-warp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     float: left; 
+    padding: 30rpx;
+  }
+
+  .bs-icon-warp view{
+    text-align: center;
+  }

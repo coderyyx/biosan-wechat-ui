@@ -1,6 +1,7 @@
+/*栅格设计参考antd*/
 .bs-row:after {
   content: "";
-  display: table;
+  display: block;
   clear: both;
 }
 .bs-col-1 {

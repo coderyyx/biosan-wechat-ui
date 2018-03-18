@@ -1,3 +1,8 @@
+/*global box size*/
+input,
+textarea {
+  box-sizing: border-box;
+}
 /* define global variables */
 /*size*/
 /* default colors */

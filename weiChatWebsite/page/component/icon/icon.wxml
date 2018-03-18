@@ -1,0 +1,18 @@
+<import src="../../common/head.wxml" />
+<import src="../../common/foot.wxml" />
+
+<view class="container">
+  <template is="head" data="{{title: 'icon'}}"/>
+  
+  <view class="bs-page-body dmeo-body">
+    <view wx:for="{{iconList}}" class="bs-icon-warp" data-_class="{{item.class}}" bindtap='choose' wx:key="{{item._class}}">
+      <i class="iconfont {{item.class}}"></i>
+      <view class="bs-icon-name">{{item.name}}</view>
+      <!-- <view class="bs-icon-class">{{item.class}}</view> -->
+    </view>
+    
+  </view>
+
+  <template is="foot" />
+</view>
+

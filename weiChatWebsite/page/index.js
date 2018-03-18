@@ -12,6 +12,11 @@ Page({
           open: false,
           pages: ['row_col']
         }, {
+          id: 'icon',
+          name: '图标库',
+          open: false,
+          pages: ['icon']
+        }, {
           id: 'basic',
           name: '基础组件',
           open: false,

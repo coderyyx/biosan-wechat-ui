@@ -11,6 +11,11 @@
   box-sizing: border-box;
   border: 0 solid #e5e5e5;
 }
+/*global box size*/
+input,
+textarea {
+  box-sizing: border-box;
+}
 /* define global variables */
 /*size*/
 /* default colors */
