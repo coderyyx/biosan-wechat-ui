@@ -11,3 +11,4 @@ textarea {
 progress {
   border-radius: 10rpx;
 }
+/* steps */

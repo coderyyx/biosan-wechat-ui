@@ -11,6 +11,7 @@ textarea {
 progress {
   border-radius: 10rpx;
 }
+/* steps */
 .other-mixin {
   content: '';
   position: absolute;

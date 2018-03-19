@@ -29,6 +29,7 @@ textarea {
 progress {
   border-radius: 10rpx;
 }
+/* steps */
 .bs-btn {
   position: relative;
   color: #333;
@@ -748,12 +749,6 @@ progress {
 }
 .zan-steps--vsteps .zan-steps__step--first-child .zan-steps__title::before {
   content: '';
-  position: absolute;
-  top: 0;
-  bottom: 50%;
-  left: 7px;
-  width: 1px;
-  background-color: #fff;
   z-index: 1;
 }
 .zan-steps--vsteps .zan-steps__step--last-child .zan-steps__title::after {
@@ -768,4 +763,13 @@ progress {
 }
 .zan-steps {
   position: relative;
+}
+.zan-steps__step--first-child::before {
+  content: '';
+  width: 0px;
+}
+.bs-level2_descp {
+  position: absolute;
+  left: 48rpx;
+  top: 70rpx;
 }

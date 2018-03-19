@@ -11,6 +11,7 @@ textarea {
 progress {
   border-radius: 10rpx;
 }
+/* steps */
 .bs-progress-warp {
   height: 20rpx;
   background-color: #e2dfdf;

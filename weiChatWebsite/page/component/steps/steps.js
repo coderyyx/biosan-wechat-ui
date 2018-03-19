@@ -17,12 +17,19 @@ Page({
         done: false,
         current: false,
         text: '步骤二',
-        desc: '10.02'
+        desc: '10.02',
+        level2_descp: true
       },
       {
         done: false,
         current: false,
         text: '步骤三'
+      },
+      {
+        done: false,
+        current: false,
+        text: '步骤二',
+        desc: '10.02'
       }
     ],
     api: [

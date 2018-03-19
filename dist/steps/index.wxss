@@ -1,3 +1,17 @@
+/*global box size*/
+input,
+textarea {
+  box-sizing: border-box;
+}
+/* define global variables */
+/*size*/
+/* default colors */
+/* button variables*/
+/*  progress */
+progress {
+  border-radius: 10rpx;
+}
+/* steps */
 .zan-steps--steps.zan-steps--5 .zan-steps__step {
   width: 25%;
 }
@@ -167,12 +181,6 @@
 }
 .zan-steps--vsteps .zan-steps__step--first-child .zan-steps__title::before {
   content: '';
-  position: absolute;
-  top: 0;
-  bottom: 50%;
-  left: 7px;
-  width: 1px;
-  background-color: #fff;
   z-index: 1;
 }
 .zan-steps--vsteps .zan-steps__step--last-child .zan-steps__title::after {
@@ -187,4 +195,13 @@
 }
 .zan-steps {
   position: relative;
+}
+.zan-steps__step--first-child::before {
+  content: '';
+  width: 0px;
+}
+.bs-level2_descp {
+  position: absolute;
+  left: 48rpx;
+  top: 70rpx;
 }

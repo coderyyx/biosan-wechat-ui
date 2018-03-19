@@ -2,7 +2,7 @@ Page({
     data: {
       list: [
         {
-          id: 'view',
+          id: 'btn',
           name: '自定义按钮',
           open: false,
           pages: ['button']
