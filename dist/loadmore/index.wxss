@@ -7,6 +7,10 @@ textarea {
 /*size*/
 /* default colors */
 /* button variables*/
+/*  progress */
+progress {
+  border-radius: 10rpx;
+}
 .other-mixin {
   content: '';
   position: absolute;

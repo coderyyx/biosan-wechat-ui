@@ -4,7 +4,8 @@
       "page/component/button/button",
       "page/component/row_col/row_col",
       "page/component/loadmore/loadmore",
-      "page/component/icon/icon"
+      "page/component/icon/icon",
+      "page/component/progress/progress"
     ],
     "window": {
       "navigationBarTextStyle": "black",
@@ -14,19 +15,19 @@
     },
     "tabBar": {
       "color": "#7A7E83",
-      "selectedColor": "#3cc51f",
+      "selectedColor": "#00a0e9",
       "borderStyle": "black",
       "backgroundColor": "#ffffff",
       "list": [{
         "pagePath": "page/index",
-        "iconPath": "image/icon_component.png",
-        "selectedIconPath": "image/icon_component_HL.png",
-        "text": "basic"
+        "iconPath": "image/basic_unselected.png",
+        "selectedIconPath": "image/basic_selected.png",
+        "text": "组件库"
       }, {
         "pagePath": "page/index",
-        "iconPath": "image/icon_API.png",
-        "selectedIconPath": "image/icon_API_HL.png",
-        "text": "compose"
+        "iconPath": "image/doc_unselected.png",
+        "selectedIconPath": "image/doc_selected.png",
+        "text": "说明"
       }]
     },
     "networkTimeout": {

@@ -30,7 +30,7 @@
     <view class="bs-row bs-row-offset-6">
       <view class="bs-col-4 offset1">bs-col-4</view>
       <view class="bs-col-4 bs-col-offset-4 offset1">offset-4</view>
-      <view class="bs-col-4 offset1">bs-col-4</view>
+      <!-- <view class="bs-col-4 offset1">bs-col-4</view> -->
       <view class="bs-col-4 bs-col-offset-4 offset1">offset-4</view>
     </view>
     <view class="bs-row bs-row-offset-6">

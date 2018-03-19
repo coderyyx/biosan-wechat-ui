@@ -1,0 +1,38 @@
+<import src="../../common/head.wxml" />
+<import src="../../common/foot.wxml" />
+<import src="../../common/api.wxml" />
+<import src="/dist/progress/index.wxml" />
+
+<view class="container">
+  <template is="head" data="{{title: 'progress'}}"/>
+  
+  <view class="bs-page-body dmeo-body">
+    <!-- <progress percent="20" show-info />
+    <progress percent="40" stroke-width="12" />
+    <progress percent="60" color="pink" /> -->
+    <!-- <progress percent="80" active show-info /> -->
+    <view class="row-demo">基础用法</view>
+    <view class="bs-row">
+      <view class="bs-col-24">
+          <template is="bs-progress" data="{{percent:50}}"/>
+      </view>
+    </view>
+    <view class="row-demo">支持百分比</view>
+    <view class="bs-row">
+      <view class="bs-col-24">
+          <template is="bs-progress" data="{{percent:50,_bs_info:'{{true}}'}}"/>
+      </view>
+    </view>
+    <view class="row-demo">自定义背景色</view>
+    <view class="bs-row">
+      <view class="bs-col-24">
+          <template is="bs-progress" data="{{percent:percent,_bs_info:'{{true}}',_bs_color:'blue'}}"/>
+      </view>
+    </view>
+    
+    <!-- <view class ></view> -->
+    <template is="bs-api" data="{{api}}"/>
+  </view>
+
+  <template is="foot" />
+</view>

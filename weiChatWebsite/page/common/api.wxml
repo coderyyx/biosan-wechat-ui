@@ -1,0 +1,15 @@
+<template name="bs-api">
+  <view class="row-demo">API</view>
+  <view class="bs-row bs-title">
+        <view  class="bs-col-6">属性/回调</view>
+        <view  class="bs-col-6">默认值</view>
+        <view  class="bs-col-6">类型</view>
+        <view  class="bs-col-6">说明</view>
+    </view>
+    <view class="bs-row bs-grid" wx:for="{{api}}">
+        <view  class="bs-col-6">{{item.props}}</view>
+        <view  class="bs-col-6">{{item.defaultValue}}</view>
+        <view  class="bs-col-6">{{item.dataType}}</view>
+        <view  class="bs-col-6">{{item.description}}</view>
+    </view>
+</template>

@@ -1,0 +1,56 @@
+@import "../style/globalVariables.less";
+
+
+.bs-progress-warp{
+    height: 20rpx;
+    background-color: #e2dfdf;
+    opacity: 0.8;
+    border-radius: @progress-border-radius;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &::after{
+        content: "";
+        display:'block';
+        clear: both;
+        height: 100%;
+    }
+  }
+  
+  .bs-progress-main{
+    float: left;
+    background-color: @progress-bgc;
+    transition: width .2s;
+    transition-timing-function: 'ease'; 
+    width:20%;
+    height: 100%;
+    border-radius: @progress-border-radius;
+  }
+  
+  .bs-progress-hasInfo_bg{
+    background-color: @white;
+  }
+  .bs-progress-container{
+      position: relative;
+      
+      .bs-progress-info{
+        float: right;
+        width:10%;
+        padding-left: 10rpx;
+      }
+
+      .bs-progress-hasInfo{
+        height: 20rpx;
+        background-color: #e2dfdf;
+        opacity: 0.8;
+        border-radius: @progress-border-radius;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width:90%;
+      }
+  }
+  
+  .bs-progress-mainBg{
+    background-color: @progress-bgc ;
+  }

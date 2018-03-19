@@ -102,8 +102,8 @@ form{
   font-size: 0;
 }
 .icon-foot{
-  width: 152rpx;
-  height: 23rpx;
+  width: 200rpx;
+  height: 28rpx;
 }
 
 .page-section{
@@ -225,4 +225,31 @@ form{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+/* api */
+.bs-title{
+  border: 1px solid gray;
+  border-bottom: none;
+  border-right: none;
+}
+.bs-title view{
+  border-right: 1px solid gray;
+}
+
+.bs-grid{
+  border: 1px solid gray;
+   border-right: none;
+   border-bottom:  none;
+}
+ .bs-grid view{
+  border-right: 1px solid gray;
+  /* border-bottm:none; */
+} 
+
+.bs-row,.bs-col-6{
+  text-align: center;
+}
+.bs-page-body .bs-grid:last-child{
+  border-bottom: 1px solid gray;
 }

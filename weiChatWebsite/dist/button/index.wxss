@@ -20,6 +20,10 @@ textarea {
 /*size*/
 /* default colors */
 /* button variables*/
+/*  progress */
+progress {
+  border-radius: 10rpx;
+}
 .bs-btn {
   position: relative;
   color: #333;

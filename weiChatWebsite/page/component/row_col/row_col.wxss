@@ -8,6 +8,7 @@ overflow-x:hidden;
 
 .descrition{
   text-indent:2em;
+  text-align: left;
 }
 .row-demo{
   margin: 10px auto;
