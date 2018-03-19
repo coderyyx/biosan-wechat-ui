@@ -6,7 +6,7 @@
         <view  class="bs-col-6">类型</view>
         <view  class="bs-col-6">说明</view>
     </view>
-    <view class="bs-row bs-grid" wx:for="{{api}}">
+    <view class="bs-row bs-grid" wx:for="{{api}}" wx:key="{{index}}">
         <view  class="bs-col-6">{{item.props}}</view>
         <view  class="bs-col-6">{{item.defaultValue}}</view>
         <view  class="bs-col-6">{{item.dataType}}</view>

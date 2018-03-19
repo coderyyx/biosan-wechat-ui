@@ -5,7 +5,8 @@
       "page/component/row_col/row_col",
       "page/component/loadmore/loadmore",
       "page/component/icon/icon",
-      "page/component/progress/progress"
+      "page/component/progress/progress",
+      "page/component/steps/steps"
     ],
     "window": {
       "navigationBarTextStyle": "black",
