@@ -39,7 +39,7 @@ gulp.task('weichatWebsite',['build'],function(){
 })
 
 //warcher
-var watcher = gulp.watch('../components/**/*.less', ['weichatWebsite']);
+var watcher = gulp.watch('../components/**/*.*', ['weichatWebsite']);
 
 watcher.on('change', function(event) {
   console.log('\n'+'File ' + event.path + ' was ' + event.type + ', running tasks...'+'\n');

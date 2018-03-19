@@ -6,7 +6,7 @@
   <template is="head" data="{{title: 'loadmore'}}"/>
   
   <view class="bs-page-body dmeo-body">
-    <template is="bs-loadmore" data="{{loading:true,descp:'加载ing...'}}"/>
+    <template is="bs-loadmore" data="{{loading:true,descp:'加载ing'}}"/>
     <template is="bs-loadmore"/>
   </view>
 

@@ -3,7 +3,7 @@
   <block wx:if="{{loading}}">
     <view class="bs-loadmore">
       <view class="bs-loading"></view>
-      <view class="bs-loadmore__tips">{{descp || '加载中...'}}</view>
+      <view class="bs-loadmore__tips">{{descp || '加载中'}}<dot class="bs-loadmore_dot">...</dot></view>
     </view>
   </block>
 

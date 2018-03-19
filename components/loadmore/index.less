@@ -8,6 +8,25 @@
   font-size: 14px;
   text-align: center;
   vertical-align: middle;
+  .bs-loadmore_dot{
+    display: inline-block;
+    height: 1em;
+    line-height: 1;
+    text-align: left;
+    vertical-align: -.25em;
+    overflow: hidden;
+    &::before{
+      display: block;
+      content: "...\A..\A.";
+      white-space: pre-wrap;
+      animation: _dot 3s infinite step-start both;
+    }
+  }
+}
+
+@keyframes _dot{
+  33%{transform: translateY(-2em)};
+  66%{transform: translateY(-1em)};
 }
 
 .bs-loading {
