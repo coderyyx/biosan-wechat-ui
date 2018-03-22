@@ -20,7 +20,7 @@ Page({
           id: 'basic',
           name: '基础组件',
           open: false,
-          pages: ['avatar', 'badge', 'loadmore','card','list','select','toptip']
+          pages: ['avatar', 'badge', 'loadmore', 'toptips','card','list','select']
         },
          {
           id: 'func',

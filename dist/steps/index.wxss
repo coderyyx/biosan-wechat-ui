@@ -12,6 +12,7 @@ progress {
   border-radius: 10rpx;
 }
 /* steps */
+/* toptips */
 .zan-steps--steps.zan-steps--5 .zan-steps__step {
   width: 25%;
 }

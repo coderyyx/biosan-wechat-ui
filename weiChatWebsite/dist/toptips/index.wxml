@@ -1,0 +1,3 @@
+<template name="bs-toptips">
+  <view class="bs-toptips {{bsTopTips.result=='error' ? 'error-bgc' : ''}} {{ bsTopTips.show ? 'bs-toptips--show' : '' }}">{{ bsTopTips.content }}</view>
+</template>

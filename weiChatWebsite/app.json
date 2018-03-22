@@ -6,7 +6,8 @@
       "page/component/loadmore/loadmore",
       "page/component/icon/icon",
       "page/component/progress/progress",
-      "page/component/steps/steps"
+      "page/component/steps/steps",
+      "page/component/toptips/toptips"
     ],
     "window": {
       "navigationBarTextStyle": "black",
@@ -37,6 +38,6 @@
       "uploadFile": 10000,
       "downloadFile": 10000
     },
-    "debug": true
+    "debug": false
   }
   

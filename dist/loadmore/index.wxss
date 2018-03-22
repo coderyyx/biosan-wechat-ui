@@ -12,6 +12,7 @@ progress {
   border-radius: 10rpx;
 }
 /* steps */
+/* toptips */
 .other-mixin {
   content: '';
   position: absolute;

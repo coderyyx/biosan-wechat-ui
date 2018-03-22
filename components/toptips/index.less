@@ -1,0 +1,29 @@
+@import "../style/globalVariables.less";
+
+.bs-toptips{
+    display:block;
+    position:fixed;
+    -webkit-transform:translateZ(0) translateY(-100%);
+    transform:translateZ(0) translateY(-100%);
+    width:100%;
+    min-height:32px;
+    top:0;
+    line-height:2.3;
+    font-size:14px;
+    text-align:center;
+    color:@toptips-color;
+    /* background-color:#e64340; */
+    background-color: @toptips-bgc;
+    z-index:600;
+    opacity:0;
+    transition:all .4s ease
+}
+.bs-toptips--show{
+    -webkit-transform:translateZ(0) translateY(0);
+    transform:translateZ(0) translateY(0);
+    opacity:1
+}
+
+.error-bgc{
+  background-color: @toptips-warn-bgc;
+}

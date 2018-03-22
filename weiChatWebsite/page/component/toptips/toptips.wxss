@@ -1,0 +1,25 @@
+.demo-body{
+  width:100%;
+  flex-grow:1;
+  overflow-x:hidden;
+}
+
+.bs-panel{
+  position: relative;
+  background-color: #fff;
+  margin-top: 20px;
+}
+
+.bs-cell{
+  position:relative;
+padding:12px 15px;
+display:flex;
+align-items:center;
+line-height:1.4;
+font-size:14px;
+
+}
+
+.bs-cell_bd{
+  flex:1
+}

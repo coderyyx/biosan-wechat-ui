@@ -25,6 +25,7 @@ progress {
   border-radius: 10rpx;
 }
 /* steps */
+/* toptips */
 .bs-btn {
   position: relative;
   color: #333;
