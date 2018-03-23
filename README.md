@@ -32,7 +32,7 @@
 
 *为了避免组件的逻辑代码对业务代码造成的比较严重的侵入性，和减少他们之间的耦合，组件的逻辑代码单独处理，处理方式详见 `shearchBar` 组件;
 
-*为了防止组件的属性或方法与业务组件属性或方法重名导致意外bug，规定组件属性、方法以_bs开头 ，example: _bs_showTips:function(){};`禁止使用箭头函数`；
+*为了防止组件的属性或方法与业务组件属性或方法重名导致意外bug，规定组件属性、方法以`$bs_`开头 ，example: `$bs_showTips:function(){}`;
 
 ## 贡献人员
 ![coderyyx](https://s.gravatar.com/avatar/096c6a7c3c923b932bb81580c1fc0770?size=60&default=retro)
