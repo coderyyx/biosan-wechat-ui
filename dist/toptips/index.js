@@ -32,8 +32,7 @@ const bsTipsControll = {
         let timer = setTimeout(() => {
             this.setData({
               'bsTopTips.show': false,
-              'bsTopTips.timer': 0,
-              'bsTopTips.result':"success"
+              'bsTopTips.timer': 0
             });
           }, duration);
 

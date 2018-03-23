@@ -1,0 +1,16 @@
+<template name="bs-toast">
+  <view class="bs-toast" wx:if="{{show}}" style="z-index: {{zIndex}};">
+    <view class="bs-toast__box">
+      <view wx:if="{{icon || src}}" class="bs-toast__icon">
+        <block wx:if="{{icon && !src}}">
+          <i class="iconfont {{icon}}" size="68"></i>
+        </block>
+        <image wx:if="{{src}}" class="bs-toast__icon--image" src="{{src}}" mode="widthFix"></image>
+      </view>
+      <text class="bs-toast__title">
+        <slot wx:if="{{!text}}"></slot>{{text ? text : ''}}
+      </text>
+    </view>
+  </view>
+</template>
+
