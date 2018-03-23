@@ -1,4 +1,4 @@
-import { BsTopTips} from "../../../dist/index.js";
+import { bsTipsControll} from "../../../dist/index.js";
 
 Page(Object.assign({
 
@@ -42,10 +42,12 @@ Page(Object.assign({
   
   },
   show:function(){
-    this.BsTopTips("成功！");
+    // this.BsTopTips("成功！");
+    this.$show("成功！");
   },
   show_warn:function(){
-    this.BsTopTips("失败！",{result:"error"});
+    // this.BsTopTips("失败！",{result:"error"});
+    this.$show("失败！",{result:"error"});
   },
   /**
    * 生命周期函数--监听页面显示
@@ -88,4 +90,4 @@ Page(Object.assign({
   onShareAppMessage: function () {
   
   }
-}, { BsTopTips}))
+}, bsTipsControll))

@@ -1,5 +1,5 @@
-import { BsTopTips} from "./toptips/index.js";
+import { bsTipsControll} from "./toptips/index.js";
 
 export {
-    BsTopTips
+    bsTipsControll
 }
