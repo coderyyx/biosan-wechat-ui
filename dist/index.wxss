@@ -889,7 +889,7 @@ progress {
   top: 0px;
   right: 0px;
   padding: 1px;
-  }
+}
 /* 基础样式 */
 .bs-dialog--container {
   position: fixed;
