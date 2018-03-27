@@ -1,0 +1,27 @@
+<import src="../../common/head.wxml" />
+<import src="../../common/foot.wxml" />
+<import src="../../common/api.wxml" />
+<import src="/dist/dialog/index.wxml" />
+
+<template is="bs-dialog" data="{{bs_dialog}}"/>
+
+<view class="container">
+  
+  <template is="head" data="{{title: 'dialog'}}"/>
+  
+  <view >
+    <button class="bs-btn" bindtap='bindNormal'>normal</button>
+    <button class="bs-btn" bindtap="withoutTitleDialog">
+      Dialog - 无标题
+    </button>
+    <button class="bs-btn" bindtap="toggleButtonDialog">
+      Dialog - 自定义显示按钮
+    </button>
+    <button class="bs-btn" bindtap="toggleButtonVertical">
+      Dialog - 按钮纵向排布
+    </button>
+    <template is="bs-api" data="{{api}}"/>
+  </view>
+
+  <template is="foot" />
+</view>

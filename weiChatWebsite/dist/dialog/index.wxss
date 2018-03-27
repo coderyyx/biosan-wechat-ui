@@ -1,5 +1,32 @@
-@import "../style/mixins.less";
-
+/*global box size*/
+input,
+textarea {
+  box-sizing: border-box;
+}
+/* define global variables */
+/*size*/
+/* default colors */
+/* button variables*/
+/*  progress */
+progress {
+  border-radius: 10rpx;
+}
+/* steps */
+/* toptips */
+/* toast */
+.other-mixin {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 200%;
+  transform: scale(0.5);
+  transform-origin: 0 0;
+  pointer-events: none;
+  box-sizing: border-box;
+  border: 0 solid #e5e5e5;
+}
 /* 基础样式 */
 .bs-dialog--container {
   position: fixed;
@@ -16,7 +43,6 @@
   color: #333;
   opacity: 0;
 }
-
 .bs-dialog--mask {
   position: fixed;
   width: 100%;
@@ -27,86 +53,79 @@
   transition: .3s;
   display: none;
 }
-
 /* 弹出层内容 */
 .bs-dialog__header {
   padding: 15px 0 0;
   text-align: center;
 }
-
 .bs-dialog__content {
   position: relative;
   padding: 15px 20px;
   line-height: 1.5;
   min-height: 40px;
-
-  &::after {
-    .other-mixin();
-    border-bottom-width: 1px;
-  }
 }
-
+.bs-dialog__content::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 200%;
+  transform: scale(0.5);
+  transform-origin: 0 0;
+  pointer-events: none;
+  box-sizing: border-box;
+  border: 0 solid #e5e5e5;
+  border-bottom-width: 1px;
+}
 /* 在有标题时，需要减弱内容的存在感 */
 .bs-dialog__content--title {
   color: #999;
   font-size: 14px;
 }
-
 .bs-dialog__footer {
   overflow: hidden;
 }
-
 .bs-dialog__button {
   line-height: 50px;
   height: 50px;
   padding: 0 5px;
   border-radius: 0;
   margin-bottom: 0;
-
-  &::after {
-    border-width: 0;
-    border-radius: 0;
-  }
 }
-
+.bs-dialog__button::after {
+  border-width: 0;
+  border-radius: 0;
+}
 /* 展示时，样式重置 */
 .bs-dialog--show .bs-dialog--container {
   opacity: 1;
   height: auto;
   z-index: 1000;
 }
-
 .bs-dialog--show .bs-dialog--mask {
   display: block;
   z-index: 900;
 }
-
 /* 水平/垂直布局 */
 .bs-dialog__footer--horizon {
   display: flex;
 }
-
 .bs-dialog__footer--horizon .bs-dialog__button {
   flex: 1;
-
-  &::after {
-    border-right-width: 1px;
-  }
-
-  &:last-child::after {
-    border-right-width: 0;
-  }
 }
-
-
+.bs-dialog__footer--horizon .bs-dialog__button::after {
+  border-right-width: 1px;
+}
+.bs-dialog__footer--horizon .bs-dialog__button:last-child::after {
+  border-right-width: 0;
+}
 .bs-dialog__footer--vertical .bs-dialog__button {
   flex: 1;
-
-  &::after {
-    border-bottom-width: 1px;
-  }
-
-  &:last-child::after {
-    border-bottom-width: 0;
-  }
+}
+.bs-dialog__footer--vertical .bs-dialog__button::after {
+  border-bottom-width: 1px;
+}
+.bs-dialog__footer--vertical .bs-dialog__button:last-child::after {
+  border-bottom-width: 0;
 }
