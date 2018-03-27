@@ -1,0 +1,17 @@
+<template name="bs-avatar">
+    <view wx:if="{{!size || size=='middle'}}" class="bs-avatar-container-middle" >
+        <image class="bs-avatar-middle {{mold == 'square'? '' : 'bs-avatar-circle'}}" src="{{src}}">
+        </image>
+        <view wx:if="{{count}}" class='bs-avatar-count'>{{count>99?'99+':count}}</view>
+    </view>
+    <view wx:elif="{{size=='small'}}" class="bs-avatar-container-small" >
+        <image class="bs-avatar-small {{mold == 'square'? '' : 'bs-avatar-circle'}}" src="{{src}}">
+        </image>
+        <view wx:if="{{count}}" class='bs-avatar-count'>{{count>99?'99+':count}}</view>
+    </view>
+    <view wx:else class="bs-avatar-container-large" >
+        <image class="bs-avatar-large {{mold == 'square'? '' : 'bs-avatar-circle'}}" src="{{src}}">
+        </image>
+        <view wx:if="{{count>99}}" class='bs-avatar-count'>{{count>99?'99+':count}}</view>
+    </view>
+</template> 
