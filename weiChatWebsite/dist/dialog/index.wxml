@@ -1,0 +1,23 @@
+<template name="bs-dialog">
+  <view class="bs-dialog {{ bs_dialog.show ? 'bs-dialog--show' : '' }}">
+    <view class="bs-dialog--mask"></view>
+    <view class="bs-dialog--container">
+      <view
+        wx:if="{{ bs_dialog.title }}"
+        class="bs-dialog__header">{{ bs_dialog.title }}</view>
+      <view
+        class="bs-dialog__content {{ bs_dialog.title ? 'bs-dialog__content--title' : '' }}">{{ bs_dialog.content }}</view>
+      <view
+        class="bs-dialog__footer {{ bs_dialog.buttonsShowVertical ? 'bs-dialog__footer--vertical' : 'bs-dialog__footer--horizon' }}" 
+        catchtap="$bs_dialog_listener">
+        <block wx:for="{{ bs_dialog.buttons }}" wx:key="{{ item.text }}-{{ item.type }}">
+          <button
+            class="bs-dialog__button bs-btn"
+            data-type="{{ item.type }}"
+            style="color: {{ item.color || '#333' }}">{{ item.text }}</button>
+        </block>
+      </view>
+    </view>
+  </view>
+</template>
+ 
