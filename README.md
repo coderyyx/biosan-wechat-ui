@@ -1,5 +1,11 @@
 # biosan-wei-UI
   `BioSan 前端团队出品`
+  
+<p align="center">
+    <img alt="项目logo" src="http://treatdemo.xsesc.com/Treat/web/Layout/index/Images/loginLogo.png">
+  <p align="center">BioSan</p>
+</p>
+
 
 ## 期望  
 *旨在快速构建微信小程序，提高开发速度
@@ -36,4 +42,5 @@
 
 ## Developers
 ![coderyyx](https://s.gravatar.com/avatar/096c6a7c3c923b932bb81580c1fc0770?size=60&default=retro)
+![yejie](https://avatars2.githubusercontent.com/u/31266618?s=60&v=4)
 ![huxi](https://avatars3.githubusercontent.com/u/22619783?s=60&v=4)

@@ -1,0 +1,6 @@
+/* demo/page/component/loadmore/loadmore.wxss */
+.demo-body{
+    width:100%;
+    flex-grow:1;
+    overflow-x:hidden;
+  }
