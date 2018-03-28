@@ -889,6 +889,9 @@ progress {
   top: 0px;
   right: 0px;
   padding: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /* 基础样式 */
 .bs-dialog--container {
@@ -991,6 +994,36 @@ progress {
 }
 .bs-dialog__footer--vertical .bs-dialog__button:last-child::after {
   border-bottom-width: 0;
+}
+.bs-card-container {
+  display: flex;
+  color: #108ee9;
+  width: 100%;
+  box-shadow: 1px 1px 1px 1px rgba(89, 101, 101, 0.53);
+  background-color: #ffffff;
+}
+.bs-card-left {
+  height: 85px;
+  width: 85px;
+}
+.bs-card-right {
+  padding: 5px 10px 5px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.bs-card-title {
+  color: black;
+  font-size: 16px;
+}
+.bs-card-descp {
+  font-size: 12px;
+  margin-top: -6px;
+}
+.bs-card-remark {
+  font-size: 16px;
+  color: red;
 }
 @keyframes loadingRotate {
   0% {
