@@ -10,7 +10,8 @@
       "page/component/toptips/toptips",
       "page/component/toast/toast",
       "page/component/avatar/avatar",
-      "page/component/dialog/dialog"
+      "page/component/dialog/dialog",
+      "page/component/loading/loading"
     ],
     "window": {
       "navigationBarTextStyle": "black",
