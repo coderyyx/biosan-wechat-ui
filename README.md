@@ -36,4 +36,5 @@
 
 ## Developers
 ![coderyyx](https://s.gravatar.com/avatar/096c6a7c3c923b932bb81580c1fc0770?size=60&default=retro)
+![yejie](https://avatars2.githubusercontent.com/u/31266618?s=60&v=4)
 ![huxi](https://avatars3.githubusercontent.com/u/22619783?s=60&v=4)
