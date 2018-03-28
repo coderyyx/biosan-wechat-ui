@@ -1,0 +1,10 @@
+<template name='bs-card'>
+    <view class='bs-card-container'>
+        <image src="{{src}}" class='bs-card-left'></image>
+        <view class="bs-card-right">
+            <view class='bs-card-title'>{{title}}</view>
+            <view class='bs-card-descp'>{{description}}</view>
+            <view class='bs-card-remark'>{{remark}}</view>
+        </view>
+    </view>
+</template> 
