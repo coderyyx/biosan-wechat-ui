@@ -11,7 +11,8 @@
       "page/component/toast/toast",
       "page/component/avatar/avatar",
       "page/component/dialog/dialog",
-      "page/component/loading/loading"
+      "page/component/loading/loading",
+      "page/component/popup/popup"
     ],
     "window": {
       "navigationBarTextStyle": "black",
