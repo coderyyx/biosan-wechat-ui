@@ -1,0 +1,9 @@
+.bs-panel{
+    position: relative;
+    background-color: #fff;
+    margin-top: 20px;
+}
+.demo-row{
+    padding: 20rpx 30rpx;
+    border-bottom:solid 1px #D8D8D8; 
+}

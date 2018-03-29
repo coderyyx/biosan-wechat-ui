@@ -1,0 +1,33 @@
+.bs-panel{
+  position: relative;
+  background-color: #fff;
+  margin-top: 20px;
+}
+.demo-first-row{
+    padding:30rpx 30rpx;
+    position:relative;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+}
+.demo-first-row:after{
+    content: " ";
+    position: absolute;
+    left: 30rpx;
+    bottom: 0;
+    right: 30rpx;
+    height: 1px;
+    border-bottom: 1rpx solid #D8D8D8;
+    color: #D8D8D8;    
+}
+.demo-second-row{
+    padding:30rpx 30rpx;
+    position:relative;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+}
+.demo-second-row:after{
+    content: " ";
+    position: absolute;
+    left: 30rpx;
+    bottom: 0;
+    right: 30rpx;
+    height: 1px;
+    border-bottom: 1rpx solid #D8D8D8;
+    color: #D8D8D8; 
+}
