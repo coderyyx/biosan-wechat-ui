@@ -1,0 +1,28 @@
+<import src="../../common/head.wxml" />
+<import src="../../common/foot.wxml" />
+
+<view class="container">
+    <template is="head" data="{{title: 'list'}}"/>
+
+    <view class="page-body">
+        <view class='bs-panel'>
+            <view class='demo-first-row'>文字组合列表</view>
+            <view class='bs-list-container'>
+                <view class='bs-list-title'>标题一</view>
+                <view class='bs-list-content'>有各种物质组成的巨型球状天梯，叫做星球。星球有一定的形状，有自己的运行轨迹。</view>
+            </view>
+        </view>
+        <view class='bs-panel'>
+            <view class='demo-second-row'>小图文组合列表</view>
+            <view class="bs-list-box">
+                <navigator url="" class="bs-list">
+                    <i class="iconfont icon-wxbzhuye"></i>
+                    <view class="bs-list-text">list</view>
+                    <view class="bs-list-arrow"></view>
+                </navigator>
+            </view>
+        </view>
+    </view>
+
+    <template is="foot" />
+</view>

@@ -1,0 +1,18 @@
+<import src="../../common/head.wxml" />
+<import src="../../common/foot.wxml" />
+
+<view class="container">
+    <template is="head" data="{{title: 'badge'}}"/>
+
+    <view class="page-body">
+        <view class='bs-panel'>
+            <view class='demo-row'>红点模式</view>
+            <view class='bs-badge-container'>
+                <image class='bs-badge-img' src="../../../image/wechatHL.png"></image>
+                <view class='bs-badge-icon'></view>
+            </view>
+        </view>
+    </view>
+
+    <template is="foot" />
+</view>
