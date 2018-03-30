@@ -1,0 +1,32 @@
+<import src="../../common/head.wxml" />
+<import src="../../common/foot.wxml" />
+<import src="../../common/api.wxml" />
+<import src="/dist/card/index.wxml" />
+
+<view class="container">
+  <template is="head" data="{{title: 'searchbar'}}"/>
+  
+  <view class="bs-page-body dmeo-body">
+    <view class='demo-row'>搜索框</view>
+    <view class="bs-searchbar" style="margin-bottom:40px">
+        <view class="bs-searchbar-form">
+            <view class="bs-searchbar-box">
+                <icon class="bs-searchbar-icon-search_in-box" type="search" size="14"></icon>
+                <input type="text" class="bs-searchbar-input" placeholder="搜索" value="{{inputVal}}" focus="{{inputShowed}}" bindinput="inputTyping" />
+                <view class="bs-searchbar-icon-clear" wx:if="{{inputVal.length > 0}}" bindtap="clearInput">
+                    <icon type="clear" size="14"></icon>
+                </view>
+            </view>
+            <label class="bs-searchbar-label" hidden="{{inputShowed}}" bindtap="showInput">
+                <icon class="bs-searchbar-icon-search" type="search" size="14"></icon>
+                <view class="bs-searchbar-text">搜索</view>
+            </label>
+        </view>
+        <view class="bs-searchbar-cancel-btn" hidden="{{!inputShowed}}" bindtap="hideInput">取消</view>
+    </view>
+    <!-- <view class ></view> -->
+    <template is="bs-api" data="{{api}}"/>
+  </view>
+
+  <template is="foot" />
+</view>

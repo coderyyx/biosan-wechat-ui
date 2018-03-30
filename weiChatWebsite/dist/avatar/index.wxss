@@ -1,3 +1,21 @@
+/*global box size*/
+input,
+textarea {
+  box-sizing: border-box;
+}
+/* define global variables */
+/*size*/
+/* default colors */
+/* button variables*/
+/*  progress */
+progress {
+  border-radius: 10rpx;
+}
+/* steps */
+/* toptips */
+/* toast */
+/*list*/
+/*card*/
 .bs-avatar-container-middle {
   width: 100px;
   height: 100px;
@@ -20,29 +38,26 @@
   width: 100px;
   height: 100px;
   float: left;
-  background-color: #eeeeee;
 }
 .bs-avatar-small {
   width: 80px;
   height: 80px;
   float: left;
-  background-color: #eeeeee;
 }
 .bs-avatar-large {
   width: 120px;
   height: 120px;
   float: left;
-  background-color: #eeeeee;
 }
 .bs-avatar-circle {
   border-radius: 50%;
 }
 .bs-avatar-count {
-  color: white;
+  color: #fff;
   min-width: 18px;
   height: 18px;
   border-radius: 50%;
-  background-color: red;
+  background-color: #f00;
   position: absolute;
   top: 0px;
   right: 0px;

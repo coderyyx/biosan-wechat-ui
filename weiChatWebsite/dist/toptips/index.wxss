@@ -14,6 +14,8 @@ progress {
 /* steps */
 /* toptips */
 /* toast */
+/*list*/
+/*card*/
 .bs-toptips {
   display: block;
   position: fixed;

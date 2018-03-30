@@ -1,9 +1,11 @@
+@import "../style/globalVariables.less";
+
 .bs-card-container{
     display:flex;
-    color: #108ee9;
+    color: @card-font-color;
     width:100%;
     box-shadow: 1px 1px 1px 1px rgba(89,101,101,0.53);
-    background-color: rgba(255, 255, 255, 1);
+    background-color: @white;
 }
 .bs-card-left{
     height: 85px;
@@ -18,7 +20,7 @@
 
 }
 .bs-card-title{
-    color: black;
+    color: @black;
     font-size: 16px;
 }
 .bs-card-descp{
@@ -27,5 +29,5 @@
 }
 .bs-card-remark{
     font-size: 16px;
-    color: red;
+    color: @red;
 }

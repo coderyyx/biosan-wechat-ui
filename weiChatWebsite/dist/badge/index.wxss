@@ -1,3 +1,21 @@
+/*global box size*/
+input,
+textarea {
+  box-sizing: border-box;
+}
+/* define global variables */
+/*size*/
+/* default colors */
+/* button variables*/
+/*  progress */
+progress {
+  border-radius: 10rpx;
+}
+/* steps */
+/* toptips */
+/* toast */
+/*list*/
+/*card*/
 .bs-badge-container {
   width: 35px;
   height: 35px;
@@ -14,7 +32,7 @@
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background-color: red;
+  background-color: #f00;
   position: absolute;
   right: 0px;
   top: 0px;

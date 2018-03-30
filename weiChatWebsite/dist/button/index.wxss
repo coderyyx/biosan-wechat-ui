@@ -27,6 +27,8 @@ progress {
 /* steps */
 /* toptips */
 /* toast */
+/*list*/
+/*card*/
 .bs-btn {
   position: relative;
   color: #333;
