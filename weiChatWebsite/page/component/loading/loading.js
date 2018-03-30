@@ -20,9 +20,10 @@ Page(Object.assign({
   },
   definePic:function(){
     this.$bs_loading_show({
-      image:"https://s10.mogucdn.com/mlcdn/c45406/171023_625g128f20b5k0aace38jgghe737b_200x200.png",
-      slip:"https://s10.mogucdn.com/mlcdn/c45406/170810_6la1hibih5861b4i2j0j5e4jgl3ee_200x200.png"
+      image:"https://hopeapp.xsesc.com/DT_BJ/page/Layout/index/Images/inner.png",
+      slip:"https://hopeapp.xsesc.com/DT_BJ/page/Layout/index/Images/circle.png"
     });
+    console.log(this.data)
   },
   /**
    * 生命周期函数--监听页面初次渲染完成

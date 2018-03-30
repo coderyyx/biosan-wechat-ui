@@ -16,6 +16,7 @@ progress {
 /* toast */
 /*list*/
 /*card*/
+/* actionSheet */
 .bs-list {
   padding: 8rpx 30rpx;
   position: relative;

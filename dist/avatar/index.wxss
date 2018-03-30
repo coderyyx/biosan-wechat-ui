@@ -16,6 +16,7 @@ progress {
 /* toast */
 /*list*/
 /*card*/
+/* actionSheet */
 .bs-avatar-container-middle {
   width: 100px;
   height: 100px;

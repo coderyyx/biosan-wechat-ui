@@ -16,6 +16,7 @@ progress {
 /* toast */
 /*list*/
 /*card*/
+/* actionSheet */
 .bs-progress-warp {
   height: 20rpx;
   background-color: #e2dfdf;

@@ -29,6 +29,7 @@ progress {
 /* toast */
 /*list*/
 /*card*/
+/* actionSheet */
 .bs-btn {
   position: relative;
   color: #333;

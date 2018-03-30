@@ -14,6 +14,7 @@
       "page/component/card/card",
       "page/component/loading/loading",
       "page/component/popup/popup",
+      "page/component/actionSheet/actionSheet",
       "page/component/list/list",
       "page/component/badge/badge",
       "page/component/searchbar/searchbar"
