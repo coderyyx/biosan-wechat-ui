@@ -12,10 +12,10 @@
     <view class="row-demo">基础用法</view>
     <view class="bs-panel">
         
-        <button class="bs-btn bs-btn-primary" bindtap='noIcon'>文字toast</button>
-        <button class="bs-btn  bs-btn-plain" bindtap='icon'>带图标的toast</button>
-        <button class="bs-btn  bs-btn-plain" bindtap='src'>带图片的toast</button>
-        <button class="bs-btn  bs-btn-plain" bindtap='level'>支持多行文字</button>
+        <button class="bs-btn" bindtap='noIcon'>文字toast</button>
+        <button class="bs-btn" bindtap='icon'>带图标的toast</button>
+        <button class="bs-btn" bindtap='src'>带图片的toast</button>
+        <button class="bs-btn" bindtap='level'>支持多行文字</button>
     </view>
 
     <!-- <view class ></view> -->

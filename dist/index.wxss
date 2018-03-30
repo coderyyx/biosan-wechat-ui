@@ -840,3 +840,408 @@ progress {
   font-size: 28rpx;
   line-height: 40rpx;
 }
+.bs-avatar-container-middle {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  position: relative;
+}
+.bs-avatar-container-small {
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+  position: relative;
+}
+.bs-avatar-container-large {
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
+  position: relative;
+}
+.bs-avatar-middle {
+  width: 100px;
+  height: 100px;
+  float: left;
+  background-color: #eeeeee;
+}
+.bs-avatar-small {
+  width: 80px;
+  height: 80px;
+  float: left;
+  background-color: #eeeeee;
+}
+.bs-avatar-large {
+  width: 120px;
+  height: 120px;
+  float: left;
+  background-color: #eeeeee;
+}
+.bs-avatar-circle {
+  border-radius: 50%;
+}
+.bs-avatar-count {
+  color: white;
+  min-width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  padding: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* 基础样式 */
+.bs-dialog--container {
+  position: fixed;
+  top: 45%;
+  left: 50%;
+  width: 80%;
+  height: 0;
+  font-size: 16px;
+  overflow: hidden;
+  transition: all .2s linear;
+  border-radius: 4px;
+  background-color: #fff;
+  transform: translate3d(-50%, -50%, 0);
+  color: #333;
+  opacity: 0;
+}
+.bs-dialog--mask {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  transition: .3s;
+  display: none;
+}
+/* 弹出层内容 */
+.bs-dialog__header {
+  padding: 15px 0 0;
+  text-align: center;
+}
+.bs-dialog__content {
+  position: relative;
+  padding: 15px 20px;
+  line-height: 1.5;
+  min-height: 40px;
+}
+.bs-dialog__content::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 200%;
+  transform: scale(0.5);
+  transform-origin: 0 0;
+  pointer-events: none;
+  box-sizing: border-box;
+  border: 0 solid #e5e5e5;
+  border-bottom-width: 1px;
+}
+/* 在有标题时，需要减弱内容的存在感 */
+.bs-dialog__content--title {
+  color: #999;
+  font-size: 14px;
+}
+.bs-dialog__footer {
+  overflow: hidden;
+}
+.bs-dialog__button {
+  line-height: 50px;
+  height: 50px;
+  padding: 0 5px;
+  border-radius: 0;
+  margin-bottom: 0;
+}
+.bs-dialog__button::after {
+  border-width: 0;
+  border-radius: 0;
+}
+/* 展示时，样式重置 */
+.bs-dialog--show .bs-dialog--container {
+  opacity: 1;
+  height: auto;
+  z-index: 1000;
+}
+.bs-dialog--show .bs-dialog--mask {
+  display: block;
+  z-index: 900;
+}
+/* 水平/垂直布局 */
+.bs-dialog__footer--horizon {
+  display: flex;
+}
+.bs-dialog__footer--horizon .bs-dialog__button {
+  flex: 1;
+}
+.bs-dialog__footer--horizon .bs-dialog__button::after {
+  border-right-width: 1px;
+}
+.bs-dialog__footer--horizon .bs-dialog__button:last-child::after {
+  border-right-width: 0;
+}
+.bs-dialog__footer--vertical .bs-dialog__button {
+  flex: 1;
+}
+.bs-dialog__footer--vertical .bs-dialog__button::after {
+  border-bottom-width: 1px;
+}
+.bs-dialog__footer--vertical .bs-dialog__button:last-child::after {
+  border-bottom-width: 0;
+}
+.bs-card-container {
+  display: flex;
+  color: #108ee9;
+  width: 100%;
+  box-shadow: 1px 1px 1px 1px rgba(89, 101, 101, 0.53);
+  background-color: #ffffff;
+}
+.bs-card-left {
+  height: 85px;
+  width: 85px;
+}
+.bs-card-right {
+  padding: 5px 10px 5px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.bs-card-title {
+  color: black;
+  font-size: 16px;
+}
+.bs-card-descp {
+  font-size: 12px;
+  margin-top: -6px;
+}
+.bs-card-remark {
+  font-size: 16px;
+  color: red;
+}
+@keyframes loadingRotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.loading {
+  position: fixed;
+  display: flex;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  align-items: center;
+  align-content: center;
+}
+.loading__image--bsl {
+  position: relative;
+  margin: 0 auto;
+  pointer-events: auto;
+  background-image: url(https://s10.mogucdn.com/mlcdn/c45406/170607_5241335cb37ka3ab7781ddh504ggh_200x200.png);
+}
+.loading__image--mall {
+  position: relative;
+  margin: 0 auto;
+  pointer-events: auto;
+  background-image: url(https://s10.mogucdn.com/mlcdn/c45406/171023_625g128f20b5k0aace38jgghe737b_200x200.png);
+}
+.loading__slip--mall {
+  animation: loadingRotate 1050ms infinite;
+  background-image: url(https://s10.mogucdn.com/mlcdn/c45406/170810_6la1hibih5861b4i2j0j5e4jgl3ee_200x200.png);
+}
+.loading__slip--bsl {
+  animation: loadingRotate 1050ms infinite;
+  background-image: url(http://s10.mogucdn.com/p1/160715/upload_ifrgmmzwmyydknldhezdambqmeyde_200x200.png);
+}
+.loading__image {
+  position: relative;
+  margin: 0 auto;
+  pointer-events: auto;
+}
+.loading__slip {
+  animation: loadingRotate 1050ms infinite;
+}
+.loading__box {
+  width: 200rpx;
+  height: 200rpx;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bs-popup {
+  visibility: hidden;
+}
+.bs-popup--show {
+  visibility: visible;
+}
+.bs-popup__mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.7);
+  display: none;
+}
+.bs-popup__container {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  background: #fff;
+  transform: translate3d(-50%, -50%, 0);
+  transform-origin: center;
+  transition: all 0.4s ease;
+  z-index: 11;
+  opacity: 0;
+}
+.bs-popup--show .bs-popup__container {
+  opacity: 1;
+}
+.bs-popup--show .bs-popup__mask {
+  display: block;
+}
+/* 左侧popup */
+.bs-popup--left .bs-popup__container {
+  left: 0;
+  top: auto;
+  transform: translate3d(-100%, 0, 0);
+}
+.bs-popup--show.bs-popup--left .bs-popup__container {
+  transform: translate3d(0, 0, 0);
+}
+/* 右侧popup */
+.bs-popup--right .bs-popup__container {
+  right: 0;
+  top: auto;
+  left: auto;
+  transform: translate3d(100%, 0, 0);
+}
+.bs-popup--show.bs-popup--right .bs-popup__container {
+  transform: translate3d(0, 0, 0);
+}
+/* 底部popup */
+.bs-popup--bottom .bs-popup__container {
+  top: auto;
+  left: auto;
+  bottom: 0;
+  transform: translate3d(0, 100%, 0);
+}
+.bs-popup--show.bs-popup--bottom .bs-popup__container {
+  transform: translate3d(0, 0, 0);
+}
+/* 顶部popup */
+.bs-popup--top .bs-popup__container {
+  top: 0;
+  left: auto;
+  transform: translate3d(0, -100%, 0);
+}
+.bs-popup--show.bs-popup--top .bs-popup__container {
+  transform: translate3d(0, 0, 0);
+}
+@font-face {
+  font-family: "iconfont";
+  src: url('//at.alicdn.com/t/font_595503_opy5pmoh3v50zfr.eot?t=1521369828149');
+  /* IE9*/
+  src: url('//at.alicdn.com/t/font_595503_opy5pmoh3v50zfr.eot?t=1521369828149#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('data:application/x-font-woff;charset=utf-8;base64,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') format('woff'), url('//at.alicdn.com/t/font_595503_opy5pmoh3v50zfr.ttf?t=1521369828149') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/ url('//at.alicdn.com/t/font_595503_opy5pmoh3v50zfr.svg?t=1521369828149#iconfont') format('svg');
+  /* iOS 4.1- */
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 48rpx;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.bs-list {
+  padding: 8rpx 30rpx;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.bs-list::after {
+  content: " ";
+  position: absolute;
+  left: 30rpx;
+  bottom: 0;
+  right: 30rpx;
+  height: 1px;
+  border-bottom: 1rpx solid #D8D8D8;
+  color: #D8D8D8;
+}
+.bs-list-text {
+  flex: 1;
+  padding-left: 10px;
+}
+.bs-list-arrow {
+  padding-right: 26rpx;
+  position: relative;
+}
+.bs-list-arrow:after {
+  content: " ";
+  display: inline-block;
+  height: 18rpx;
+  width: 18rpx;
+  border-width: 2rpx 2rpx 0 0;
+  border-color: #888888;
+  border-style: solid;
+  transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+  position: absolute;
+  top: 50%;
+  margin-top: -8rpx;
+  right: 28rpx;
+}
+.bs-list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 5rpx 30rpx;
+  position: relative;
+}
+.bs-list-container:after {
+  content: " ";
+  position: absolute;
+  left: 30rpx;
+  bottom: 0;
+  right: 30rpx;
+  height: 1px;
+  border-bottom: 1rpx solid #D8D8D8;
+  color: #D8D8D8;
+}
+.bs-list-title {
+  font-size: 16px;
+}
+.bs-list-content {
+  font-size: 12px;
+  padding: 5px 0;
+}
+.bs-badge-container {
+  width: 35px;
+  height: 35px;
+  position: relative;
+  margin: 20rpx 30rpx;
+}
+.bs-badge-img {
+  width: 35px;
+  height: 35px;
+  float: left;
+  border-radius: 50%;
+}
+.bs-badge-icon {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}

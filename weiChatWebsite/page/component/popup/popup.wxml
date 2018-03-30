@@ -1,0 +1,63 @@
+<import src="../../common/head.wxml" />
+<import src="../../common/foot.wxml" />
+
+<view class="container">
+  
+  <view class="bs-page-body demo-body">
+    <template is="head" data="{{title: 'popup'}}"/>
+    <button class="bs-btn" bindtap="toggleTopPopup">
+      从顶部弹出popup
+    </button>
+    <button class="bs-btn" bindtap="toggleBottomPopup">
+      从底部弹出popup
+    </button>
+    <button class="bs-btn" bindtap="toggleLeftPopup">
+      从左边弹出popup
+    </button>
+    <button class="bs-btn" bindtap="toggleRightPopup">
+      从右边弹出popup
+    </button>
+  </view>
+
+  <view class="popup-example--left bs-popup bs-popup--left {{ showLeftPopup ? 'bs-popup--show' : ''}}">
+    <view class="bs-popup__mask" bindtap="toggleLeftPopup"></view>
+    <view class="bs-popup__container">
+      <view class="bs-btns">
+        <button class="bs-btn" catchtap="toggleLeftPopup">
+          关闭 popup
+        </button>
+      </view>
+    </view>
+  </view>
+
+  <view class="popup-example--right bs-popup bs-popup--right {{ showRightPopup ? 'bs-popup--show' : ''}}">
+    <view class="bs-popup__mask" catchtap="toggleRightPopup"></view>
+    <view class="bs-popup__container">
+      <view class="bs-btns">
+        <button class="bs-btn" catchtap="toggleRightPopup">
+          关闭 popup
+        </button>
+      </view>
+    </view>
+  </view>
+
+  <view class="popup-example--top bs-popup bs-popup--top {{ showTopPopup ? 'bs-popup--show' : ''}}">
+    <view class="bs-popup__mask" catchtap="toggleTopPopup"></view>
+    <view class="bs-popup__container">
+      内容
+    </view>
+  </view>
+
+  <view class="popup-example--bottom bs-popup bs-popup--bottom {{ showBottomPopup ? 'bs-popup--show' : ''}}">
+    <view class="bs-popup__mask" catchtap="toggleBottomPopup"></view>
+    <view class="bs-popup__container">
+      <view class="bs-btns">
+        <button class="bs-btn" catchtap="toggleBottomPopup">
+          关闭 popup
+        </button>
+      </view>
+    </view>
+  </view>
+  <template is="foot" />
+</view>
+

@@ -1,0 +1,16 @@
+<import src="/dist/loading/index.wxml"/>
+<import src="../../common/head.wxml" />
+<import src="../../common/foot.wxml" />
+
+<template is="bs-loading" data="{{...bs_loading}}"/>
+<view class="container">
+  
+  <view class="bs-page-body demo-body">
+    <template is="head" data="{{title: 'loading'}}"/>
+    <button class="bs-btn" bindtap='defaultLoading'>默认loading</button>
+    <button class="bs-btn" bindtap='definePic'>自定义图片</button>
+  </view>
+
+  <template is="foot" />
+</view>
+

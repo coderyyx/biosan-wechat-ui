@@ -1,0 +1,23 @@
+.demo-body{
+  width:100%;
+flex-grow:1;
+overflow-x:hidden;
+
+}
+
+.descrition{
+  text-indent:2em;
+}
+
+.row-demo{
+  margin: 10px auto;
+  background-color:#efe8e8;
+  padding: 5px;
+}
+.container {
+  background: #F9F9F9;
+  overflow: hidden;
+  min-height: 100vh;
+  box-sizing: border-box;
+  padding: 15px 0;
+}

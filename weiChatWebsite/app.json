@@ -8,7 +8,14 @@
       "page/component/progress/progress",
       "page/component/steps/steps",
       "page/component/toptips/toptips",
-      "page/component/toast/toast"
+      "page/component/toast/toast",
+      "page/component/avatar/avatar",
+      "page/component/dialog/dialog",
+      "page/component/card/card",
+      "page/component/loading/loading",
+      "page/component/popup/popup",
+      "page/component/list/list",
+      "page/component/badge/badge"
     ],
     "window": {
       "navigationBarTextStyle": "black",
