@@ -16,7 +16,8 @@
       "page/component/popup/popup",
       "page/component/actionSheet/actionSheet",
       "page/component/list/list",
-      "page/component/badge/badge"
+      "page/component/badge/badge",
+      "page/component/cascader/cascader"
     ],
     "window": {
       "navigationBarTextStyle": "black",

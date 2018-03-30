@@ -15,6 +15,7 @@ progress {
 /* toptips */
 /* toast */
 /* actionSheet */
+/* cascader */
 .bs-toptips {
   display: block;
   position: fixed;

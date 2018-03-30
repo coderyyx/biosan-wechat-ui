@@ -15,6 +15,7 @@ progress {
 /* toptips */
 /* toast */
 /* actionSheet */
+/* cascader */
 .bs-progress-warp {
   height: 20rpx;
   background-color: #e2dfdf;

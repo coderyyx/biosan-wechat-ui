@@ -15,6 +15,7 @@ progress {
 /* toptips */
 /* toast */
 /* actionSheet */
+/* cascader */
 .bs-toast {
   position: fixed;
   display: flex;

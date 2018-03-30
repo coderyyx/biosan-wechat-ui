@@ -15,6 +15,7 @@ progress {
 /* toptips */
 /* toast */
 /* actionSheet */
+/* cascader */
 .other-mixin {
   content: '';
   position: absolute;

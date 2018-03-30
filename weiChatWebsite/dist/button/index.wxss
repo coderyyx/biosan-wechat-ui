@@ -28,6 +28,7 @@ progress {
 /* toptips */
 /* toast */
 /* actionSheet */
+/* cascader */
 .bs-btn {
   position: relative;
   color: #333;
