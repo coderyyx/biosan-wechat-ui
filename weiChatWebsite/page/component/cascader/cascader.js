@@ -64,5 +64,10 @@ Page(Object.assign({
    */
   onShareAppMessage: function () {
   
+  },
+  $cascaderConfirm:function(d,v){
+    this.setData({
+      name:d
+    })
   }
 }, cascaderController))

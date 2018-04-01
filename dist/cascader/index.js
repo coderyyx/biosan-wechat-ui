@@ -57,7 +57,7 @@ cascaderController = {
       tempDescp = `${pL} ${cL} ${aL}`;
     }
     //回调
-    if($cascaderConfirm)
+    if(this.$cascaderConfirm)
       this.$cascaderConfirm(tempDescp,tempValue);
     else
       console.warn("缺少 $cascaderConfirm 回调函数！");
@@ -89,8 +89,8 @@ cascaderController = {
       }]
     }
     this.setData({
-      cityData:city,
-      areaData:area
+      "bs_cascader.cityData":city,
+      "bs_cascader.areaData":area
     });
     //获取value & descrition
     let provinceValue = provinceData[v_0].value;
@@ -103,8 +103,6 @@ cascaderController = {
     // 省市区label
     tempDescp = `${provinceDescp} ${cityDescp} ${areaDescp}`;
     tempValue = [ provinceValue, cityValue, areaValue ];
-    console.log(tempDescp);
-    console.log(tempValue)
     //此处仅暂存changValue
     this.setData({
       "bs_cascader.tempDescp":tempDescp,

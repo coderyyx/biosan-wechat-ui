@@ -12,7 +12,7 @@
       <view bindtap='$bs_cascader_showCascader'>
           {{name}}
       </view>
-      <template is="bs-cascader" data="{{bs_cascader}}"/>
+      <template is="bs-cascader" data="{{bs_cascader,animationData}}"/>
   </view> 
   
 

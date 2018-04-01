@@ -19,7 +19,6 @@ cascaderController = {
     });
   },
   $bs_cascader_showCascader:function(){
-    console.log(this.data)
       //show
       var animation = wx.createAnimation({
         duration: 300,
@@ -58,7 +57,7 @@ cascaderController = {
       tempDescp = `${pL} ${cL} ${aL}`;
     }
     //回调
-    if($cascaderConfirm)
+    if(this.$cascaderConfirm)
       this.$cascaderConfirm(tempDescp,tempValue);
     else
       console.warn("缺少 $cascaderConfirm 回调函数！");
@@ -90,8 +89,8 @@ cascaderController = {
       }]
     }
     this.setData({
-      cityData:city,
-      areaData:area
+      "bs_cascader.cityData":city,
+      "bs_cascader.areaData":area
     });
     //获取value & descrition
     let provinceValue = provinceData[v_0].value;

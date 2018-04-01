@@ -1,1 +1,3 @@
-/* page/component/cascader/cascader.wxss */
+.page-body{
+    padding: 5px 10px;
+}
