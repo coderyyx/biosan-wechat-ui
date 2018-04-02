@@ -1,0 +1,30 @@
+@import "../style/globalVariables.less";
+
+.bs-select {
+  align-items: center;
+  flex-direction: column;
+}
+.bs-select-row{
+  padding-left:10px;
+  position: relative;
+  display: flex;
+}
+.bs-select-row::after {
+  content: " ";
+  position: absolute;
+  left: 30rpx;
+  bottom: 0;
+  right: 30rpx;
+  height: 1px;
+  border-bottom: 1rpx solid @list-border-color;
+}
+
+.bs-select-text {
+    display:flex;
+    align-items:center;
+    flex: 1;
+    padding-left:10px;
+}
+.bs-select-icon{
+    color: #1AAD19;
+}

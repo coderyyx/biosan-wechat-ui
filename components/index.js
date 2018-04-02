@@ -5,6 +5,7 @@ import { loadingController} from "./loading/index.js";
 import { bsActionSheetController} from "./actionSheet/index.js";
 import {bsSearchbarController} from './searchbar/index';
 import { cascaderController} from "./cascader/index.js";
+import {bsSelectController} from './select/index';
 
 export {
     bsTipsControll,
@@ -13,5 +14,6 @@ export {
     loadingController,
     bsActionSheetController,
     bsSearchbarController,
-    cascaderController
+    cascaderController,
+    bsSelectController
 }

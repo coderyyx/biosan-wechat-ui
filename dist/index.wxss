@@ -3,7 +3,6 @@
     开发只需要引用dist下面的index.wxss文件应用组件库样式表文件
 
 */
-@import url("at.alicdn.com/t/font_595503_7c6ds3zejm8l4n29.css");
 .bs-page-body {
   padding: 0 30rpx;
   width: 100%;
@@ -502,6 +501,50 @@ progress {
   background: #f9f9f9;
   padding: 0 6px;
   z-index: 1;
+}
+@font-face {
+  font-family: "iconfont";
+  src: url('//at.alicdn.com/t/font_595503_7c6ds3zejm8l4n29.eot?t=1522661001112');
+  /* IE9*/
+  src: url('//at.alicdn.com/t/font_595503_7c6ds3zejm8l4n29.eot?t=1522661001112#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('data:application/x-font-woff;charset=utf-8;base64,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') format('woff'), url('//at.alicdn.com/t/font_595503_7c6ds3zejm8l4n29.ttf?t=1522661001112') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/ url('//at.alicdn.com/t/font_595503_7c6ds3zejm8l4n29.svg?t=1522661001112#iconfont') format('svg');
+  /* iOS 4.1- */
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 48rpx;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-wxbzhuye:before {
+  content: "\e61f";
+}
+.icon-wxbsousuotuiguang:before {
+  content: "\e620";
+}
+.icon-iconfontxingxing:before {
+  content: "\e628";
+}
+.icon-iconfontmingpian:before {
+  content: "\e629";
+}
+.icon-tipssuccess:before {
+  content: "\e635";
+}
+.icon-good:before {
+  content: "\e699";
+}
+.icon-refresh:before {
+  content: "\e6a0";
+}
+.icon-down:before {
+  content: "\e6a8";
+}
+.icon-link:before {
+  content: "\e6bc";
+}
+.icon-atm:before {
+  content: "\e6bd";
 }
 .bs-progress-warp {
   height: 20rpx;
@@ -1372,4 +1415,31 @@ progress {
   height: 80rpx;
   width: 100%;
   margin-bottom: 20rpx;
+}
+.bs-select {
+  align-items: center;
+  flex-direction: column;
+}
+.bs-select-row {
+  padding-left: 10px;
+  position: relative;
+  display: flex;
+}
+.bs-select-row::after {
+  content: " ";
+  position: absolute;
+  left: 30rpx;
+  bottom: 0;
+  right: 30rpx;
+  height: 1px;
+  border-bottom: 1rpx solid #D8D8D8;
+}
+.bs-select-text {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  padding-left: 10px;
+}
+.bs-select-icon {
+  color: #1AAD19;
 }

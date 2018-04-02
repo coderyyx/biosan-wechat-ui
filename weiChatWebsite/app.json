@@ -19,6 +19,7 @@
       "page/component/badge/badge",
       "page/component/searchbar/searchbar",
       "page/component/cascader/cascader",
+      "page/component/select/select",
       "page/component/doc/doc"
     ],
     "window": {
