@@ -17,7 +17,8 @@
       "page/component/actionSheet/actionSheet",
       "page/component/list/list",
       "page/component/badge/badge",
-      "page/component/searchbar/searchbar"
+      "page/component/searchbar/searchbar",
+      "page/component/cascader/cascader"
     ],
     "window": {
       "navigationBarTextStyle": "black",

@@ -30,6 +30,7 @@ progress {
 /*list*/
 /*card*/
 /* actionSheet */
+/* cascader */
 .bs-btn {
   position: relative;
   color: #333;

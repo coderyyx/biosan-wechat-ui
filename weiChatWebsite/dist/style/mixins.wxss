@@ -17,6 +17,7 @@ progress {
 /*list*/
 /*card*/
 /* actionSheet */
+/* cascader */
 .other-mixin {
   content: '';
   position: absolute;
