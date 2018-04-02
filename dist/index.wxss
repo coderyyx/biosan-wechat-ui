@@ -1367,6 +1367,11 @@ progress {
   color: #09bb07;
   white-space: nowrap;
 }
+.bs-searchbar-read {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .bs-cascader_container {
   font-size: 28rpx;
   width: 100%;
