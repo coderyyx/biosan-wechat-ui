@@ -4,7 +4,7 @@ cascaderController = {
   $bs_cascader_init:function(sourceData){
     if(!Array.isArray(sourceData))
       console.warn("数据错误！");
-    
+
     let provinceData = sourceData;
     let cityData = provinceData[0].children;
     let areaData = cityData[0].children;
@@ -13,8 +13,7 @@ cascaderController = {
       bs_cascader:{
         provinceData,
         cityData,
-        areaData,
-        label:"label"
+        areaData
       }
     });
   },
@@ -32,6 +31,7 @@ cascaderController = {
 
   },
   $bs_cascader_cancel:function(){
+    //这里也是动画，然其高度变为0
       var animation = wx.createAnimation({
         duration: 500,
         timingFunction: 'ease',
@@ -103,8 +103,6 @@ cascaderController = {
     // 省市区label
     tempDescp = `${provinceDescp} ${cityDescp} ${areaDescp}`;
     tempValue = [ provinceValue, cityValue, areaValue ];
-    console.log(tempDescp);
-    console.log(tempValue)
     //此处仅暂存changValue
     this.setData({
       "bs_cascader.tempDescp":tempDescp,

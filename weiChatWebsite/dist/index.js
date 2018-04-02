@@ -3,11 +3,8 @@ import { bsToastController} from "./toast/index.js";
 import { dialogController} from "./dialog/index.js";
 import { loadingController} from "./loading/index.js";
 import { bsActionSheetController} from "./actionSheet/index.js";
-<<<<<<< HEAD
 import {bsSearchbarController} from './searchbar/index';
-=======
 import { cascaderController} from "./cascader/index.js";
->>>>>>> upstream/master
 
 export {
     bsTipsControll,
@@ -15,9 +12,6 @@ export {
     dialogController,
     loadingController,
     bsActionSheetController,
-<<<<<<< HEAD
-    bsSearchbarController
-=======
+    bsSearchbarController,
     cascaderController
->>>>>>> upstream/master
 }
