@@ -1,0 +1,5 @@
+/* page/component/searchbar/searchbar.wxss */
+.row-demo{
+  margin: 10px auto;
+  padding: 5px;
+}

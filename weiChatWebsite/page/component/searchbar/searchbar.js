@@ -1,7 +1,12 @@
+import {  bsSearchbarController } from "../../../dist/index.js";
 
-Page({
+Page(Object.assign({
+
+  /**
+   * 页面的初始数据
+   */
   data: {
-    api:[
+     api:[
         {
             props:'inputVal',
             defaultValue:'空',
@@ -14,35 +19,82 @@ Page({
             dataType: 'bool',
             description: "是否选中"
         }
-    ],
-    inputVal: ""
+    ]
   },
-  onLoad:function(){
-    
-  },
-  onShow:function(){
 
+  /**
+   * 生命周期函数--监听页面加载
+   */
+  onLoad: function (options) {
+    //组件初始化
+    this.$bs_searchbar_init();
   },
   showInput: function () {
     this.setData({
-      inputShowed: true
+      ['bs_searchbar.inputShowed']: true
     });
   },
   hideInput: function () {
     this.setData({
-      inputVal: "",
-      inputShowed: false
+      ['bs_searchbar.inputVal']: "",
+      ['bs_searchbar.inputShowed']: false
     });
   },
   clearInput: function () {
-
     this.setData({
-      inputVal: ""
+      ['bs_searchbar.inputVal']: ""
     });
   },
-  inputTyping: function (e) {
+  inputTyping: function (value) {
     this.setData({
-      inputVal: e.detail.value
+      ['bs_searchbar.inputVal']: value
     });
+  },
+  /**
+   * 生命周期函数--监听页面初次渲染完成
+   */
+  onReady: function () {
+  },
+
+  /**
+   * 生命周期函数--监听页面显示
+   */
+  onShow: function () {
+  
+  },
+
+  /**
+   * 生命周期函数--监听页面隐藏
+   */
+  onHide: function () {
+  
+  },
+
+  /**
+   * 生命周期函数--监听页面卸载
+   */
+  onUnload: function () {
+  
+  },
+
+  /**
+   * 页面相关事件处理函数--监听用户下拉动作
+   */
+  onPullDownRefresh: function () {
+  
+  },
+
+  /**
+   * 页面上拉触底事件的处理函数
+   */
+  onReachBottom: function () {
+  
+  },
+
+  /**
+   * 用户点击右上角分享
+   */
+  onShareAppMessage: function () {
+  
   }
-});
+},bsSearchbarController));
