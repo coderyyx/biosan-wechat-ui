@@ -1,0 +1,30 @@
+@import "../../common/index.wxss";
+.warp view{
+  text-align: left;
+}
+.warp{
+  padding: 30rpx;
+  color: gray;
+}
+.warp .title{
+  font-size: 40rpx;
+  color: black;
+}
+
+.warp:not(:first-child){
+  font-size: 28rpx;
+}
+
+.links:not(:first-child){
+  font-size: 28rpx;
+  color:#0366d6;
+  text-decoration: lightblue;
+}
+
+.links .link{
+  font-size: 22rpx;
+  padding-left: 20rpx;
+}
+.links{
+  margin-bottom: 20px;
+}

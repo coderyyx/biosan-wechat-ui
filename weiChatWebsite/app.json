@@ -18,7 +18,8 @@
       "page/component/list/list",
       "page/component/badge/badge",
       "page/component/searchbar/searchbar",
-      "page/component/cascader/cascader"
+      "page/component/cascader/cascader",
+      "page/component/doc/doc"
     ],
     "window": {
       "navigationBarTextStyle": "black",
@@ -37,7 +38,7 @@
         "selectedIconPath": "image/basic_selected.png",
         "text": "组件库"
       }, {
-        "pagePath": "page/index",
+        "pagePath": "page/component/doc/doc",
         "iconPath": "image/doc_unselected.png",
         "selectedIconPath": "image/doc_selected.png",
         "text": "说明"

@@ -1,0 +1,36 @@
+<view class="index-hd">
+    <image class="index-logo" src="../../../image/biosan_kit.png"></image>
+    <view class="index-desc">biosan前端团队</view>
+    
+    
+  </view>
+  <view class='warp'>
+        <view class="title">目标</view>
+        <view>1、基于组件库快速开发微信小程序</view>
+        <view>2、提供个性化配置，统一用户体验</view>
+        <view>3、搭建开发与产品经理、设计师之间沟通的桥梁</view>
+        <view>4、希望继续完善、拓展，发展成为移动端的css框架、组件库</view>
+  </view>
+    <view class='warp'>
+        <view class="title">DEVELOP</view>
+        <view>项目地址：(https://github.com/coderyyx/biosan-wei-UI)</view>
+        <view>1、初次开发运行 npm install / yarn install(下同) 安装开发依赖</view>
+        <view>2、构建项目运行 npm run build dist</view>
+        <view>3、构建weiChatWebsite 运行 npm run build weichatDemo</view>
+        <view>4、先fork项目，修改bug或开发组件后 提交PR ,做好描述</view>
+  </view>
+   <view class='warp links'>
+        <view class="title">THANKS</view>
+        <view>WeUI for 小程序 </view>
+        <view class="link">(https://github.com/Tencent/weui-wxss/)</view>
+        <view>WeUI for Work</view>
+        <view class="link"> (https://work.weixin.qq.com/api/doc#12146)</view>
+        <view>weui.js</view>
+        <view class="link">(https://github.com/weui/weui.js/)</view>
+        <view>react-weui</view>
+        <view class="link">(https://github.com/weui/react-weui/)</view>
+        <view>MinUI</view>
+        <view class="link">https://github.com/meili/minui</view>
+        <view>zanui-webapp</view>
+        <view class="link">https://github.com/youzan/zanui-weapp</view>
+  </view>
