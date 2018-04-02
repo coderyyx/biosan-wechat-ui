@@ -32,7 +32,7 @@ Page({
           id: 'compose',
           name: '组合组件',
           open: false,
-          pages: ['cascader','searchbar','navbar']
+          pages: ['cascader','searchbar']
         }
       ]
     },
