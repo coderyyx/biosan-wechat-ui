@@ -27,6 +27,8 @@ progress {
 /* steps */
 /* toptips */
 /* toast */
+/*list*/
+/*card*/
 /* actionSheet */
 /* cascader */
 .bs-btn {

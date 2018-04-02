@@ -1,3 +1,4 @@
+@import "../style/globalVariables.less";
 
 .bs-list {
   padding: 8rpx 30rpx;
@@ -12,8 +13,7 @@
   bottom: 0;
   right: 30rpx;
   height: 1px;
-  border-bottom: 1rpx solid #D8D8D8;
-  color: #D8D8D8;
+  border-bottom: 1rpx solid @list-border-color;
 }
 
 .bs-list-text {
@@ -30,7 +30,7 @@
   height: 18rpx;
   width: 18rpx;
   border-width: 2rpx 2rpx 0 0;
-  border-color: #888888;
+  border-color: @list-arrow-color;
   border-style: solid;
   transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
   position: absolute;
@@ -53,8 +53,7 @@
     bottom: 0;
     right: 30rpx;
     height: 1px;
-    border-bottom: 1rpx solid #D8D8D8;
-    color: #D8D8D8;
+    border-bottom: 1rpx solid @list-border-color;
 }
 .bs-list-title{
     font-size: 16px;

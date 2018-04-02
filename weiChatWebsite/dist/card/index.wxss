@@ -1,9 +1,28 @@
+/*global box size*/
+input,
+textarea {
+  box-sizing: border-box;
+}
+/* define global variables */
+/*size*/
+/* default colors */
+/* button variables*/
+/*  progress */
+progress {
+  border-radius: 10rpx;
+}
+/* steps */
+/* toptips */
+/* toast */
+/*list*/
+/*card*/
+/* actionSheet */
 .bs-card-container {
   display: flex;
   color: #108ee9;
   width: 100%;
   box-shadow: 1px 1px 1px 1px rgba(89, 101, 101, 0.53);
-  background-color: #ffffff;
+  background-color: #fff;
 }
 .bs-card-left {
   height: 85px;
@@ -17,7 +36,7 @@
   align-items: flex-start;
 }
 .bs-card-title {
-  color: black;
+  color: #000;
   font-size: 16px;
 }
 .bs-card-descp {
@@ -26,5 +45,5 @@
 }
 .bs-card-remark {
   font-size: 16px;
-  color: red;
+  color: #f00;
 }

@@ -37,6 +37,8 @@ progress {
 /* steps */
 /* toptips */
 /* toast */
+/*list*/
+/*card*/
 /* actionSheet */
 /* cascader */
 .bs-btn {
@@ -869,29 +871,26 @@ progress {
   width: 100px;
   height: 100px;
   float: left;
-  background-color: #eeeeee;
 }
 .bs-avatar-small {
   width: 80px;
   height: 80px;
   float: left;
-  background-color: #eeeeee;
 }
 .bs-avatar-large {
   width: 120px;
   height: 120px;
   float: left;
-  background-color: #eeeeee;
 }
 .bs-avatar-circle {
   border-radius: 50%;
 }
 .bs-avatar-count {
-  color: white;
+  color: #fff;
   min-width: 18px;
   height: 18px;
   border-radius: 50%;
-  background-color: red;
+  background-color: #f00;
   position: absolute;
   top: 0px;
   right: 0px;
@@ -1007,7 +1006,7 @@ progress {
   color: #108ee9;
   width: 100%;
   box-shadow: 1px 1px 1px 1px rgba(89, 101, 101, 0.53);
-  background-color: #ffffff;
+  background-color: #fff;
 }
 .bs-card-left {
   height: 85px;
@@ -1021,7 +1020,7 @@ progress {
   align-items: flex-start;
 }
 .bs-card-title {
-  color: black;
+  color: #000;
   font-size: 16px;
 }
 .bs-card-descp {
@@ -1030,7 +1029,7 @@ progress {
 }
 .bs-card-remark {
   font-size: 16px;
-  color: red;
+  color: #f00;
 }
 @keyframes loadingRotate {
   0% {
@@ -1228,7 +1227,6 @@ progress {
   right: 30rpx;
   height: 1px;
   border-bottom: 1rpx solid #D8D8D8;
-  color: #D8D8D8;
 }
 .bs-list-text {
   flex: 1;
@@ -1267,7 +1265,6 @@ progress {
   right: 30rpx;
   height: 1px;
   border-bottom: 1rpx solid #D8D8D8;
-  color: #D8D8D8;
 }
 .bs-list-title {
   font-size: 16px;
@@ -1292,11 +1289,85 @@ progress {
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background-color: red;
+  background-color: #f00;
   position: absolute;
   right: 0px;
   top: 0px;
 }
+<<<<<<< HEAD
+.bs-searchbar {
+  position: relative;
+  padding: 8px 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  box-sizing: border-box;
+  background-color: #efeff4;
+  border-top: 1rpx solid #d7d6dc;
+  border-bottom: 1rpx solid #d7d6dc;
+}
+.bs-searchbar-icon-search {
+  margin-right: 8px;
+  font-size: inherit;
+}
+.bs-searchbar-icon-search_in-box {
+  position: absolute;
+  left: 10px;
+  top: 7px;
+}
+.bs-searchbar-text {
+  display: inline-block;
+  font-size: 14px;
+  vertical-align: middle;
+}
+.bs-searchbar-form {
+  position: relative;
+  -webkit-box-flex: 1;
+  -webkit-flex: auto;
+  flex: auto;
+  border-radius: 5px;
+  background: #fff;
+  border: 1rpx solid #e6e6ea;
+}
+.bs-searchbar-box {
+  position: relative;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.bs-searchbar-input {
+  height: 28px;
+  line-height: 28px;
+  font-size: 14px;
+}
+.bs-searchbar-icon-clear {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 7px 8px;
+  font-size: 0;
+}
+.bs-searchbar-label {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  border-radius: 3px;
+  text-align: center;
+  color: #9b9b9b;
+  background: #fff;
+  line-height: 28px;
+}
+.bs-searchbar-cancel-btn {
+  margin-left: 10px;
+  line-height: 28px;
+  color: #09bb07;
+  white-space: nowrap;
+=======
 .bs-cascader_container {
   font-size: 28rpx;
   width: 100%;
@@ -1337,4 +1408,5 @@ progress {
   height: 80rpx;
   width: 100%;
   margin-bottom: 20rpx;
+>>>>>>> upstream/master
 }

@@ -14,27 +14,27 @@
     <view class="row-demo">默认姿势（圆形头像）</view>
     <view class="bs-row">
       <view class="bs-col-24">
-          <template is="bs-avatar" data="{{src:'../../../image/basic.png',count:''}}"/>
+          <template is="bs-avatar" data="{{src:'../../../image/card.jpg',count:''}}"/>
       </view>
     </view>
     <view class="row-demo">不同规格</view>
     <view class="bs-row">
       <view class="bs-col-24">
-          <template is="bs-avatar" data="{{src:'../../../image/basic.png',size:'small',count:''}}"/>
-          <template is="bs-avatar" data="{{src:'../../../image/basic.png',size:'middle',count:''}}"/>
-          <template is="bs-avatar" data="{{src:'../../../image/basic.png',size:'large',count:''}}"/>
+          <template is="bs-avatar" data="{{src:'../../../image/card.jpg',size:'small',count:''}}"/>
+          <template is="bs-avatar" data="{{src:'../../../image/card.jpg',size:'middle',count:''}}"/>
+          <template is="bs-avatar" data="{{src:'../../../image/card.jpg',size:'large',count:''}}"/>
       </view>
     </view>
     <view class="row-demo">方形头像</view>
     <view class="bs-row">
       <view class="bs-col-24">
-          <template is="bs-avatar" data="{{src:'../../../image/basic.png',mold:'square',count:''}}"/>
+          <template is="bs-avatar" data="{{src:'../../../image/card.jpg',mold:'square',count:''}}"/>
       </view>
     </view>
     <view class="row-demo">消息提示</view>
     <view class="bs-row">
       <view class="bs-col-24">
-          <template is="bs-avatar" data="{{src:'../../../image/basic.png',count:100}}"/>
+          <template is="bs-avatar" data="{{src:'../../../image/card.jpg',count:100}}"/>
       </view>
     </view>
     <!-- <view class ></view> -->
