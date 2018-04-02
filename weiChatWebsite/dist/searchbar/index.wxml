@@ -8,7 +8,7 @@
                     <icon type="clear" size="14"></icon>z`
                 </view>
             </view>
-            <label class="bs-searchbar-label" hidden="{{bs_searchbar.inputShowed}}" bindtap="$bs_searchbar_showInput">
+            <label class="bs-searchbar-label {{!bs_searchbar.inputShowed?'bs-searchbar-read':''}}" hidden="{{bs_searchbar.inputShowed}}" bindtap="$bs_searchbar_showInput">
                 <icon class="bs-searchbar-icon-search" type="search" size="14"></icon>
                 <view class="bs-searchbar-text">搜索</view>
             </label>

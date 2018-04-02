@@ -42,3 +42,6 @@ progress {
   flex: 1;
   padding-left: 10px;
 }
+.bs-select-icon {
+  color: #1AAD19;
+}
