@@ -18,7 +18,8 @@
       "page/component/list/list",
       "page/component/badge/badge",
       "page/component/searchbar/searchbar",
-      "page/component/cascader/cascader"
+      "page/component/cascader/cascader",
+      "page/component/select/select"
     ],
     "window": {
       "navigationBarTextStyle": "black",
