@@ -1,8 +1,16 @@
 @import "../style/globalVariables.less";
 
 .bs-select {
-  align-items: center;
-  flex-direction: column;
+  position: relative;
+}
+.bs-select:first-child::before{
+  content: " ";
+  position: absolute;
+  left: 30rpx;
+  top: 0;
+  right: 30rpx;
+  height: 1px;
+  border-top: 1rpx solid @select-border-color;
 }
 .bs-select-row{
   padding-left:10px;
@@ -16,7 +24,7 @@
   bottom: 0;
   right: 30rpx;
   height: 1px;
-  border-bottom: 1rpx solid @list-border-color;
+  border-bottom: 1rpx solid @select-border-color;
 }
 
 .bs-select-text {
@@ -26,5 +34,5 @@
     padding-left:10px;
 }
 .bs-select-icon{
-    color: #1AAD19;
+    color: @select-tick-color;
 }

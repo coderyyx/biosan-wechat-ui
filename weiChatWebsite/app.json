@@ -20,7 +20,8 @@
       "page/component/searchbar/searchbar",
       "page/component/cascader/cascader",
       "page/component/select/select",
-      "page/component/doc/doc"
+      "page/component/doc/doc",
+      "page/component/segment/segment"
     ],
     "window": {
       "navigationBarTextStyle": "black",

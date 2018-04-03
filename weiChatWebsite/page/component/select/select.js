@@ -8,16 +8,22 @@ Page(Object.assign({
   data: {
      api:[
         {
-            props:'inputVal',
-            defaultValue:'空',
-            dataType:'string',
-            description:"输入内容"
+            props:'actions',
+            defaultValue:'[]',
+            dataType:'list',
+            description:"选择项"
         },
         {
-            props: 'inputShowed',
-            defaultValue: 'false',
-            dataType: 'bool',
-            description: "是否选中"
+            props: 'valueList',
+            defaultValue: '[]',
+            dataType: 'list',
+            description: "选中项"
+        },
+        {   
+            props:'type',
+            defaultValue: 'radio',
+            dataType: 'string',
+            description: "radio,checkbox"
         }
     ]
   },
@@ -40,8 +46,16 @@ Page(Object.assign({
                 value:'option2',
                 flag:false,
                 icon:'icon-wxbzhuye'
+            },
+            {
+                descp:'option3',
+                value:'option3',
+                flag:false,
+                icon:'icon-wxbzhuye'
             }
         ],
+        type:'radio',
+        valueList:['option1']
     });
   },
   btnSelect: function (value) {
