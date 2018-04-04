@@ -19,8 +19,16 @@ progress {
 /* actionSheet */
 /* cascader */
 .bs-select {
-  align-items: center;
-  flex-direction: column;
+  position: relative;
+}
+.bs-select:first-child::before {
+  content: " ";
+  position: absolute;
+  left: 30rpx;
+  top: 0;
+  right: 30rpx;
+  height: 1px;
+  border-top: 1rpx solid #D8D8D8;
 }
 .bs-select-row {
   padding-left: 10px;

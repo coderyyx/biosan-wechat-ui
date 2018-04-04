@@ -1,0 +1,13 @@
+<template name="bs-segment">
+<view>
+    <view class='bs-segment' wx:for="{{ bs_segment.actions }}" wx:key="{{ index }}">
+        <view 
+            class="bs-segment-row"
+            data-item="{{item}}"
+            data-index="{{index}}"
+            bindtap='$bs_segment_btn'>
+                <view class="bs-segment-text">{{item.descp}}</view>
+        </view>
+    </view>
+</view>
+</template> 
