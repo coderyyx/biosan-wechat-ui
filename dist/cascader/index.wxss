@@ -18,6 +18,7 @@ progress {
 /*card*/
 /* actionSheet */
 /* cascader */
+/* select */
 .bs-cascader_container {
   font-size: 28rpx;
   width: 100%;

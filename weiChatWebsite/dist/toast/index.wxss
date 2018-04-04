@@ -18,6 +18,7 @@ progress {
 /*card*/
 /* actionSheet */
 /* cascader */
+/* select */
 .bs-toast {
   position: fixed;
   display: flex;

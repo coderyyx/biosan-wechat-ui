@@ -18,6 +18,7 @@ progress {
 /*card*/
 /* actionSheet */
 /* cascader */
+/* select */
 .bs-badge-container {
   width: 35px;
   height: 35px;

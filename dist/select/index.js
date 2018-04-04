@@ -36,8 +36,7 @@ const bsSelectController = {
       ]
       
     } = options;
-    console.log(11);
-    let yjactions = backFill(valueList,actions);
+    
     // init
     this.setData({
       bs_select:{

@@ -18,6 +18,7 @@ progress {
 /*card*/
 /* actionSheet */
 /* cascader */
+/* select */
 .bs-list {
   padding: 8rpx 30rpx;
   position: relative;
