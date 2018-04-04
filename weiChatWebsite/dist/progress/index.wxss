@@ -18,6 +18,8 @@ progress {
 /*card*/
 /* actionSheet */
 /* cascader */
+/* select */
+/*segment*/
 .bs-progress-warp {
   height: 20rpx;
   background-color: #e2dfdf;

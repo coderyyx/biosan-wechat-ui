@@ -36,8 +36,7 @@ const bsSelectController = {
       ]
       
     } = options;
-    console.log(11);
-    let yjactions = backFill(valueList,actions);
+    
     // init
     this.setData({
       bs_select:{
@@ -88,15 +87,7 @@ const bsSelectController = {
     } else {
       console.warn('页面缺少 btnSelect 回调函数');
     }
-  },
-  $bs_select_clearClick:function() {
-
-    if(this.clearInput){
-      this.clearInput();
-    }else{
-      console.warn('页面缺少 clearInput 回调函数');
-    }
-  },
+  }
 }
 
 export {

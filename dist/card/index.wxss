@@ -18,6 +18,8 @@ progress {
 /*card*/
 /* actionSheet */
 /* cascader */
+/* select */
+/*segment*/
 .bs-card-container {
   display: flex;
   color: #108ee9;

@@ -18,6 +18,8 @@ progress {
 /*card*/
 /* actionSheet */
 /* cascader */
+/* select */
+/*segment*/
 .bs-select {
   position: relative;
 }

@@ -18,6 +18,8 @@ progress {
 /*card*/
 /* actionSheet */
 /* cascader */
+/* select */
+/*segment*/
 .zan-steps--steps.zan-steps--5 .zan-steps__step {
   width: 25%;
 }

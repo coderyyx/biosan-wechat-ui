@@ -18,6 +18,8 @@ progress {
 /*card*/
 /* actionSheet */
 /* cascader */
+/* select */
+/*segment*/
 .bs-avatar-container-middle {
   width: 100px;
   height: 100px;
