@@ -19,6 +19,10 @@ progress {
 /* actionSheet */
 /* cascader */
 /* select */
+<<<<<<< HEAD
+/*segment*/
+=======
+>>>>>>> upstream/master
 .other-mixin {
   content: '';
   position: absolute;
