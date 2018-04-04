@@ -32,7 +32,22 @@ Page({
       }, {
         class: "icon-wxbsousuotuiguang",
         name: "搜索推广"
-      } ]
+      } , {
+        class: "icon-tipssuccess",
+        name: "成功"
+      }, {
+        class: "icon-jiantou",
+        name: "右箭头"
+      }, {
+        class: "icon-jiantou2",
+        name: "左箭头"
+      }, {
+        class: "icon-danjiantoushang",
+        name: "上箭头"
+      }, {
+        class: "icon-jiantou6",
+        name: "下箭头"
+      }]
   },
 
   /**

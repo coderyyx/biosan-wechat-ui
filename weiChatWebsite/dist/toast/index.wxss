@@ -19,7 +19,10 @@ progress {
 /* actionSheet */
 /* cascader */
 /* select */
+<<<<<<< HEAD
 /*segment*/
+=======
+>>>>>>> upstream/master
 .bs-toast {
   position: fixed;
   display: flex;
