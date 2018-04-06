@@ -1,0 +1,22 @@
+<template name="bs-cascader">
+    <view class="bs-cascader_container" animation="{{animationData}}">
+    <view class="bs-cascader_cover"></view>
+    <view class="bs-cascader_find">
+          <view class="bs-cascader_header">
+              <text class='bs-cascader_cancel' catchtap="$bs_cascader_cancel">取消</text>
+              <text class="bs-cascader_confirm" catchtap="$bs_cascader_confirm">确认</text>
+          </view>
+          <picker-view indicator-style="height: 80rpx;" style="width: 100%; height: 400rpx;" bindchange="$bs_cascader_valueChange">
+                <picker-view-column>
+                <view wx:for="{{bs_cascader.provinceData}}" wx:key='this' style="line-height: 80rpx;text-align:center;">{{item.label}}</view>
+                </picker-view-column>
+                <picker-view-column>
+                <view wx:for="{{bs_cascader.cityData}}" wx:key='this' style="line-height: 80rpx;text-align:center;">{{item.label}}</view>
+                </picker-view-column>
+                <picker-view-column>
+                <view wx:for="{{bs_cascader.areaData}}" wx:key='this' style="line-height: 80rpx;text-align:center;">{{item.label}}</view>
+                </picker-view-column>
+            </picker-view>
+      </view>
+  </view>
+</template>

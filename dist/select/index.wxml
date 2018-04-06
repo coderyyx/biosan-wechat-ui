@@ -1,0 +1,15 @@
+<template name="bs-select">
+<view>
+    <view class='bs-select' wx:for="{{ bs_select.actions }}" wx:key="{{ index }}">
+        <view 
+            class="bs-select-row"
+            data-item="{{item}}"
+            data-index="{{index}}"
+            bindtap='$bs_select_selected'>
+                <i class="iconfont {{item.icon}}"></i>
+                <view class="bs-select-text">{{item.descp}}</view>
+                <i class="bs-select-icon {{item.flag?'iconfont icon-tipssuccess':''}}" type="success_no_circle" size="9" style="padding-right:15px"></i>
+        </view>
+    </view>
+</view>
+</template> 
