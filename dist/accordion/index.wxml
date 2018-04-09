@@ -1,0 +1,20 @@
+<template name="bs-accordion">
+  <view class="container" >
+    <block wx:for="{{ bs_accordion.datas}}" wx:key="{{index}}">
+        <view class="header" data-item="{{item}}"
+              data-index="{{index}}" bindtap="$bs_accordion_title_clicked">
+            <view class="headerWrap">
+                <text class="headerText">{{item.title}}</text>
+            </view>
+            <i class='iconfont arrow {{item.flag ? "icon-danjiantoushang" : "icon-jiantou6"}}'></i>
+        </view>
+        <view wx:if="{{item.flag}}">
+            <view wx:for="{{item.childs}}" class="content" wx:key="{{index}}">
+                <i class="iconfont {{item.icon}}"/>
+                <text class="content-text">{{item.content}}</text>
+            </view>
+        </view>
+    </block>
+  </view>
+</template>
+

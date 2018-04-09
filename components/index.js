@@ -7,7 +7,7 @@ import {bsSearchbarController} from './searchbar/index';
 import { cascaderController} from "./cascader/index.js";
 import {bsSelectController} from './select/index.js';
 import {bsSegmentController} from './segment/index.js';
-
+import {bsAccordionController} from './accordion/index.js';
 export {
     bsTipsControll,
     bsToastController,
@@ -17,5 +17,6 @@ export {
     bsSearchbarController,
     cascaderController,
     bsSelectController,
-    bsSegmentController
+    bsSegmentController,
+    bsAccordionController
 }
