@@ -58,18 +58,19 @@
         <br />
         <a href="https://github.com/yinluer" align="center">yejie</a>
       </td>
+      <td align="center">
+        <img width="90" height="90"
+        src="https://avatars3.githubusercontent.com/u/226197?s=60&v=4">
+        <br />
+        <a href="https://github.com/zhoujie198929" align="center">zhoujie</a>
+      </td>
        <td align="center">
         <img width="90" height="90"
         src="https://avatars3.githubusercontent.com/u/22619783?s=60&v=4">
         <br />
         <a href="https://github.com/huxi123" align="center">huxi</a>
       </td>
-      <td align="center">
-        <img width="90" height="90"
-        src="https://avatars3.githubusercontent.com/u/226197?s=60&v=4">
-        <br />
-        <a href="https://github.com/huxi123" align="center">zhoujie</a>
-      </td>
+      
     </tr>
   </tbody>
 </table>
