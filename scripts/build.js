@@ -31,7 +31,7 @@ function check(args){
         console.log(chalk.red("--example:npm run build arg1 arg2"));
         console.log(chalk.red("--必须传入构建参数！"));
         console.log(chalk.red("--构建dist  传入dist"));
-        console.log(chalk.red("--构建weichatWebsite 传入weichatDemo"));
+        console.log(chalk.red("--构建weichatWebsite 传入weichat"));
         console.log(chalk.red("---------------------------------"));
         console.log(chalk.red("end......."));
         process.exit(0);
@@ -47,8 +47,8 @@ function getFilePath(arg){
         case 'dist':
             path = filePath.dist;
             break;
-        case 'weichatDemo':
-            path = filePath.weichatDemo;
+        case 'weichat':
+            path = filePath.weichat;
         break;
         default:
             break;

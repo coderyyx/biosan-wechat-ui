@@ -1,12 +1,14 @@
 <template name="bs-segment">
-<view>
-    <view class='bs-segment' wx:for="{{ bs_segment.actions }}" wx:key="{{ index }}">
+<view class="bs-segment-container {{bs_segment.bgColor?'bs-segment-warn':''}}">
+    <view wx:for="{{ bs_segment.actions }}" 
+          wx:key="{{ index }}"
+          class="bs-segment {{item.flag?'bs-segment-select':''}} {{bs_segment.disabled?'bs-segment-select-disabled':''}} {{bs_segment.bgColor?'bs-segment-warn':''}}">
         <view 
             class="bs-segment-row"
             data-item="{{item}}"
             data-index="{{index}}"
-            bindtap='$bs_segment_btn'>
-                <view class="bs-segment-text">{{item.descp}}</view>
+            bindtap='$bs_segment_click'>
+                <view class="bs-segment-item">{{item.descp}}</view>
         </view>
     </view>
 </view>
