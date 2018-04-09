@@ -26,7 +26,7 @@ Page({
           id: 'func',
           name: '功能组件',
           open: false,
-          pages: ['progress', 'steps', 'loading', 'dialog', 'popup', 'toast','actionSheet','segment']
+          pages: ['progress', 'steps', 'loading', 'dialog', 'popup', 'toast','actionSheet','segment','accordion']
         },
         {
           id: 'compose',
@@ -34,12 +34,6 @@ Page({
           open: false,
           pages: ['cascader','searchbar']
         },
-        {
-          id:'accordion',
-          name:'手风琴组件',
-          open:false,
-          pages:['accordion']
-        }
       ]
     },
     kindToggle: function (e) {
