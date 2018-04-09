@@ -11,7 +11,7 @@
     <view style='margin-bottom:100px'>
         <template is="bs-searchbar" data="{{bs_searchbar}}" />
     </view>
-    <template is="bs-api" data="{{api}}"/>
+    <!-- <template is="bs-api" data="{{api}}"/> -->
   </view>
 
   <template is="foot" />

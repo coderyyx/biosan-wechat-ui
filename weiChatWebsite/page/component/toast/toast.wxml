@@ -19,7 +19,7 @@
     </view>
 
     <!-- <view class ></view> -->
-    <template is="bs-api" data="{{api}}"/>
+    <!-- <template is="bs-api" data="{{api}}"/> -->
   </view>
 
   <template is="foot" />
