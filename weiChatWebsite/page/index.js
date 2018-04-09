@@ -33,6 +33,12 @@ Page({
           name: '组合组件',
           open: false,
           pages: ['cascader','searchbar']
+        },
+        {
+          id:'accordion',
+          name:'手风琴组件',
+          open:false,
+          pages:['accordion']
         }
       ]
     },
