@@ -7,6 +7,7 @@ import {bsSearchbarController} from './searchbar/index';
 import { cascaderController} from "./cascader/index.js";
 import {bsSelectController} from './select/index.js';
 import {bsSegmentController} from './segment/index.js';
+import {bsPopoverController} from './popover/index.js';
 
 export {
     bsTipsControll,
@@ -17,5 +18,6 @@ export {
     bsSearchbarController,
     cascaderController,
     bsSelectController,
-    bsSegmentController
+    bsSegmentController,
+    bsPopoverController,
 }

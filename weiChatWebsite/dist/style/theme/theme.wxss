@@ -1,5 +1,0 @@
-.bs-page-body {
-  padding: 0 30rpx;
-  width: 100%;
-  box-sizing: border-box;
-}

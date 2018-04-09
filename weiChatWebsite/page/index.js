@@ -26,7 +26,7 @@ Page({
           id: 'func',
           name: '功能组件',
           open: false,
-          pages: ['progress', 'steps', 'loading', 'dialog', 'popup', 'toast','actionSheet','segment']
+          pages: ['progress', 'steps', 'loading', 'dialog', 'popup', 'toast','actionSheet','segment','popover']
         },
         {
           id: 'compose',
