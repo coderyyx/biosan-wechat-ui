@@ -62,7 +62,7 @@
         <img width="90" height="90"
         src="https://avatars3.githubusercontent.com/u/22619783?s=60&v=4">
         <br />
-        <a href="https://github.com/coderyyx" align="center">yejie</a>
+        <a href="https://github.com/coderyyx" align="center">huxi</a>
       </td>
     </tr>
   </tbody>
