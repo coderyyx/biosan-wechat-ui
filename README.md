@@ -60,7 +60,7 @@
       </td>
       <td align="center">
         <img width="90" height="90"
-        src="https://avatars3.githubusercontent.com/u/226197?s=60&v=4">
+        src="https://avatars0.githubusercontent.com/u/38059186?s=60&v=4">
         <br />
         <a href="https://github.com/zhoujie198929" align="center">zhoujie</a>
       </td>
