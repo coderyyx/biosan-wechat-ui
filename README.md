@@ -43,6 +43,27 @@
 *为了防止组件的属性或方法与业务组件属性或方法重名导致意外bug，规定组件属性、方法以`$bs_`开头 ，example: `$bs_showTips:function(){}`;
 
 ## Developers
-![coderyyx](https://s.gravatar.com/avatar/096c6a7c3c923b932bb81580c1fc0770?size=60&default=retro)
-![yejie](https://avatars2.githubusercontent.com/u/31266618?s=60&v=4)
-![huxi](https://avatars3.githubusercontent.com/u/22619783?s=60&v=4)
+<table>
+  <tbody>
+    <tr>
+      <td align="center">
+        <img width="90" height="90"
+        src="https://s.gravatar.com/avatar/096c6a7c3c923b932bb81580c1fc0770?size=60&default=retro">
+        <br />
+        <a href="https://github.com/coderyyx">coderyyx</a>
+      </td>
+      <td align="center">
+        <img width="90" height="90"
+        src="https://avatars2.githubusercontent.com/u/31266618?s=60&v=4">
+        <br />
+        <a href="https://github.com/coderyyx" align="center">yejie</a>
+      </td>
+       <td align="center">
+        <img width="90" height="90"
+        src="https://avatars3.githubusercontent.com/u/22619783?s=60&v=4">
+        <br />
+        <a href="https://github.com/coderyyx" align="center">yejie</a>
+      </td>
+    </tr>
+  </tbody>
+</table>
