@@ -56,7 +56,7 @@
         <img width="90" height="90"
         src="https://avatars2.githubusercontent.com/u/31266618?s=60&v=4">
         <br />
-        <a href="https://github.com/coderyyx" align="center">yejie</a>
+        <a href="https://github.com/yinluer" align="center">yejie</a>
       </td>
        <td align="center">
         <img width="90" height="90"
