@@ -22,6 +22,7 @@
       "page/component/select/select",
       "page/component/doc/doc",
       "page/component/segment/segment",
+      "page/component/popover/popover",
       "page/component/accordion/accordion"
     ],
     "window": {
