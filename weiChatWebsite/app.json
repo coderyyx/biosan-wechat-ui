@@ -14,12 +14,20 @@
       "page/component/card/card",
       "page/component/loading/loading",
       "page/component/popup/popup",
+      "page/component/actionSheet/actionSheet",
       "page/component/list/list",
-      "page/component/badge/badge"
+      "page/component/badge/badge",
+      "page/component/searchbar/searchbar",
+      "page/component/cascader/cascader",
+      "page/component/select/select",
+      "page/component/doc/doc",
+      "page/component/segment/segment",
+      "page/component/popover/popover",
+      "page/component/accordion/accordion"
     ],
     "window": {
       "navigationBarTextStyle": "black",
-      "navigationBarTitleText": "演示",
+      "navigationBarTitleText": "usage",
       "navigationBarBackgroundColor": "#F8F8F8",
       "backgroundColor": "#F8F8F8"
     },
@@ -34,7 +42,7 @@
         "selectedIconPath": "image/basic_selected.png",
         "text": "组件库"
       }, {
-        "pagePath": "page/index",
+        "pagePath": "page/component/doc/doc",
         "iconPath": "image/doc_unselected.png",
         "selectedIconPath": "image/doc_selected.png",
         "text": "说明"

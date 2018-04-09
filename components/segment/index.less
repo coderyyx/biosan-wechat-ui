@@ -1,0 +1,41 @@
+@import '../style/globalVariables.less';
+.bs-segment-container{
+    display:flex;
+    border-radius:5px;
+    overflow:hidden;
+    border: solid 1px @segment-default-color;
+    &.bs-segment-warn{
+        border: solid 1px @segment-warn-color;
+    }
+}
+
+.bs-segment{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex: 1;
+    -webkit-flex: 1;
+    height: 20px;
+    color: #108ee9;
+    border-right: solid 1px @segment-default-color;
+    &.bs-segment-warn{
+        border-right: solid 1px @segment-warn-color;
+        color: red;
+        height: 30px;
+    }
+}
+.bs-segment:last-child{
+    border-right: none;
+}
+.bs-segment-select{
+    transition: background .2s;
+    background-color:@segment-default-color; 
+    opacity: 1;
+    color: #fff !important;
+    &&-disabled {
+        opacity: 0.5;
+    }
+    &.bs-segment-warn{
+        background-color: @segment-warn-color;
+    }
+}

@@ -20,7 +20,7 @@
     <button class="bs-btn" bindtap="toggleButtonVertical">
       Dialog - 按钮纵向排布
     </button>
-    <template is="bs-api" data="{{api}}"/>
+    <!-- <template is="bs-api" data="{{api}}"/> -->
   </view>
 
   <template is="foot" />

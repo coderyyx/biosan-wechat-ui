@@ -26,14 +26,14 @@ Page({
           id: 'func',
           name: '功能组件',
           open: false,
-          pages: ['progress', 'steps', 'loading', 'dialog', 'popup', 'toast','actionSheet']
+          pages: ['progress', 'steps', 'loading', 'dialog', 'popup', 'toast','actionSheet','segment','accordion','popover']
         },
         {
           id: 'compose',
           name: '组合组件',
           open: false,
-          pages: ['cascader','searchbar','navbar']
-        }
+          pages: ['cascader','searchbar']
+        },
       ]
     },
     kindToggle: function (e) {

@@ -1,0 +1,18 @@
+<template name="bs-popover">
+    <view class="bs-popover-container {{bs_popover.show?'bs-popover-show':''}}" bindtap="$bs_popover_cancel">
+        <view class="{{bs_popover.show?'bs-popover-triangle':''}}"></view>
+        <view class="bs-popover-body">
+            <view wx:for="{{ bs_popover.data }}" 
+              wx:key="{{ index }}"
+              class="bs-popover-pop">
+                <view class="bs-popover-pop-item"
+                    data-item="{{item}}"
+                    data-index="{{index}}"
+                    bindtap="$bs_popover_confirm">
+                    <i class="iconfont {{item.icon}}"></i>
+                    <view>{{item.action}}</view>
+                </view>
+            </view>
+        </view>
+    </view>
+</template>

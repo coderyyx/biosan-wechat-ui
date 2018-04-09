@@ -1,0 +1,18 @@
+<import src="../../common/head.wxml" />
+<import src="../../common/foot.wxml" />
+<import src="../../common/api.wxml" />
+<import src="/dist/segment/index.wxml" />
+
+<view class="container">
+  <template is="head" data="{{title: 'segment'}}"/>
+  
+  <view class="bs-page-body">
+    <view class="row-demo">分页器</view>
+    <view style='margin-bottom:20px'>
+        <template is="bs-segment" data="{{bs_segment}}" />
+    </view>
+    <!-- <template is="bs-api" data="{{api}}"/> -->
+  </view>
+
+  <template is="foot" />
+</view>

@@ -20,7 +20,9 @@
 
 使用微信开发者工具打开 weiChatWebsite 目录
 
-初次开发运行 npm install 安装开发依赖
+*建议使用yarn开发 安装方式 npm install yarn -g
+
+初次开发运行 npm install / yarn install(下同) 安装开发依赖
 
 构建项目运行 npm run build dist
 
@@ -41,6 +43,34 @@
 *为了防止组件的属性或方法与业务组件属性或方法重名导致意外bug，规定组件属性、方法以`$bs_`开头 ，example: `$bs_showTips:function(){}`;
 
 ## Developers
-![coderyyx](https://s.gravatar.com/avatar/096c6a7c3c923b932bb81580c1fc0770?size=60&default=retro)
-![yejie](https://avatars2.githubusercontent.com/u/31266618?s=60&v=4)
-![huxi](https://avatars3.githubusercontent.com/u/22619783?s=60&v=4)
+
+<table>
+  <tbody>
+    <tr>
+      <td align="center">
+        <img width="90" height="90"
+        src="https://s.gravatar.com/avatar/096c6a7c3c923b932bb81580c1fc0770?size=60&default=retro">
+        <br />
+        <a href="https://github.com/coderyyx">coderyyx</a>
+      </td>
+      <td align="center">
+        <img width="90" height="90"
+        src="https://avatars2.githubusercontent.com/u/31266618?s=60&v=4">
+        <br />
+        <a href="https://github.com/yinluer" align="center">yejie</a>
+      </td>
+      <td align="center">
+        <img width="90" height="90"
+        src="https://avatars0.githubusercontent.com/u/38059186?s=60&v=4">
+        <br />
+        <a href="https://github.com/zhoujie198929" align="center">zhoujie</a>
+      </td>
+       <td align="center">
+        <img width="90" height="90"
+        src="https://avatars3.githubusercontent.com/u/22619783?s=60&v=4">
+        <br />
+        <a href="https://github.com/huxi123" align="center">huxi</a>
+      </td>
+    </tr>
+  </tbody>
+</table>

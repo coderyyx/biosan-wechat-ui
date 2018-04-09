@@ -1,0 +1,38 @@
+@import "../style/globalVariables.less";
+
+.bs-select {
+  position: relative;
+}
+.bs-select:first-child::before{
+  content: " ";
+  position: absolute;
+  left: 30rpx;
+  top: 0;
+  right: 30rpx;
+  height: 1px;
+  border-top: 1rpx solid @select-border-color;
+}
+.bs-select-row{
+  padding-left:10px;
+  position: relative;
+  display: flex;
+}
+.bs-select-row::after {
+  content: " ";
+  position: absolute;
+  left: 30rpx;
+  bottom: 0;
+  right: 30rpx;
+  height: 1px;
+  border-bottom: 1rpx solid @select-border-color;
+}
+
+.bs-select-text {
+    display:flex;
+    align-items:center;
+    flex: 1;
+    padding-left:10px;
+}
+.bs-select-icon{
+    color: @select-tick-color;
+}

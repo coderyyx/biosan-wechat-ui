@@ -1,0 +1,23 @@
+<import src="../../common/head.wxml" />
+<import src="../../common/foot.wxml" />
+<import src="../../common/api.wxml" />
+<import src="/dist/actionSheet/index.wxml" />
+
+<template is="bs-actionsheet" data="{{bs_actionSheet}}"/>
+<view class="container">
+  <template is="head" data="{{title: 'actionSheet'}}"/>
+  <view class="page-body">
+      <button class="bs-btn" bindtap="showActionSheet">
+        微信原生actionSheet
+    </button>
+    <button class="bs-btn" bindtap="showDefaultActionSheet">
+        bs_actionSheet默认action
+    </button>
+    <button class="bs-btn" bindtap="showDefineActionSheet">
+        bs_actionSheet自定义按钮
+    </button>
+  </view>
+  
+
+  <template is="foot" />
+</view>

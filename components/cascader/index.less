@@ -1,0 +1,43 @@
+@import "../style/globalVariables.less";
+
+.bs-cascader_container{
+    font-size:28rpx;
+    width: 100%;
+    height: 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 10000;
+}
+.bs-cascader_cover{
+    width: 100%;
+    height:50%;
+    background: @black;
+    opacity: 0.5;
+}
+.bs-cascader_find{
+    width: 100%;
+    /* height: 500rpx; */
+    height: 50%;
+     position: relative;
+    background: @white;
+}
+
+.bs-cascader_cancel,.bs-cascader_confirm{
+    display: block;
+    position: absolute;
+    width: 100rpx;
+    height: 80rpx;
+    line-height: 80rpx;
+    text-align: center;
+    color: @cascader-text;
+}
+.bs-cascader_confirm{
+    right: 0;
+    top: 0;
+}
+.bs-cascader_header{
+    height: 80rpx;
+    width: 100%;
+    margin-bottom: 20rpx;
+}
