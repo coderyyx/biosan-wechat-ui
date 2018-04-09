@@ -43,6 +43,7 @@
 *为了防止组件的属性或方法与业务组件属性或方法重名导致意外bug，规定组件属性、方法以`$bs_`开头 ，example: `$bs_showTips:function(){}`;
 
 ## Developers
+
 <table>
   <tbody>
     <tr>
@@ -70,7 +71,6 @@
         <br />
         <a href="https://github.com/huxi123" align="center">huxi</a>
       </td>
-      
     </tr>
   </tbody>
 </table>
