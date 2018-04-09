@@ -1,0 +1,11 @@
+<template name="bs-progress">
+    <view class="bs-progress-container">
+        <view class="bs-progress-warp  {{_bs_info ? 'bs-progress-hasInfo_bg' : '' }}" >
+        <view class="bs-progress-hasInfo" wx:if="{{_bs_info}}">
+            <view class="bs-progress-main {{_bs_color ? '' : 'bs-progress-manBg'}}" style="width:{{percent + '%'}};background-color:{{_bs_color ? _bs_color : ''}}"></view>
+        </view>
+        <view class="bs-progress-main {{_bs_color ? '' : 'bs-progress-manBg' }}" style="width:{{percent + '%'}};background-color:{{_bs_color ? _bs_color : ''}}" wx:else></view>
+        <view wx:if="{{_bs_info}}" class="bs-progress-info">{{ percent + '%'}}</view>
+        </view>
+    </view>
+</template>

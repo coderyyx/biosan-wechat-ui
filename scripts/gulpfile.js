@@ -24,7 +24,7 @@ gulp.task('build', function (err) {
     return gulp.src(['../components/**/*.less','!../components/**/_*.less'])
     .pipe(less())
     //压缩css
-    // .pipe(cssmin())
+    .pipe(cssmin())
     .pipe(rename((path) => {
         //修改文件后缀
         path.extname = '.wxss';
@@ -33,9 +33,9 @@ gulp.task('build', function (err) {
 });
 
 gulp.task('weichatWebsite',['build'],function(){
-    fs.emptyDirSync(filePath.weichatDemo);
-    //copy 打包后的文件至weichatDemo
-    copyFile(filePath.dist,filePath.weichatDemo);
+    fs.emptyDirSync(filePath.weichat);
+    //copy 打包后的文件至weichat
+    copyFile(filePath.dist,filePath.weichat);
 })
 
 //warcher

@@ -11,7 +11,7 @@
     <view style='margin-bottom:20px'>
         <template is="bs-segment" data="{{bs_segment}}" />
     </view>
-    <template is="bs-api" data="{{api}}"/>
+    <!-- <template is="bs-api" data="{{api}}"/> -->
   </view>
 
   <template is="foot" />

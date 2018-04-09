@@ -22,11 +22,12 @@
       "page/component/select/select",
       "page/component/doc/doc",
       "page/component/segment/segment",
-      "page/component/popover/popover"
+      "page/component/popover/popover",
+      "page/component/accordion/accordion"
     ],
     "window": {
       "navigationBarTextStyle": "black",
-      "navigationBarTitleText": "演示",
+      "navigationBarTitleText": "usage",
       "navigationBarBackgroundColor": "#F8F8F8",
       "backgroundColor": "#F8F8F8"
     },

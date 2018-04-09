@@ -1,0 +1,18 @@
+<template name="bs-searchbar">
+    <view class='bs-searchbar'>
+        <view class="bs-searchbar-form">
+            <view class="bs-searchbar-box">
+                <icon class="bs-searchbar-icon-search_in-box" type="search" size="14"></icon>
+                <input type="text" class="bs-searchbar-input" placeholder="搜索" value="{{bs_searchbar.inputVal}}" focus="{{bs_searchbar.inputShowed}}" bindinput="$bs_searchbar_btnClick" />
+                <view class="bs-searchbar-icon-clear" wx:if="{{bs_searchbar.inputVal.length > 0}}" bindtap="$bs_searchbar_clearClick">
+                    <icon type="clear" size="14"></icon>z`
+                </view>
+            </view>
+            <label class="bs-searchbar-label {{!bs_searchbar.inputShowed?'bs-searchbar-read':''}}" hidden="{{bs_searchbar.inputShowed}}" bindtap="$bs_searchbar_showInput">
+                <icon class="bs-searchbar-icon-search" type="search" size="14"></icon>
+                <view class="bs-searchbar-text">搜索</view>
+            </label>
+        </view>
+        <view class="bs-searchbar-cancel-btn" hidden="{{!bs_searchbar.inputShowed}}" bindtap="$bs_searchbar_hideInput">取消</view>
+    </view>
+</template> 

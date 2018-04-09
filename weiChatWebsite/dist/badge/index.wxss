@@ -1,0 +1,1 @@
+input,textarea{box-sizing:border-box}progress{border-radius:10rpx}.bs-badge-container{width:35px;height:35px;position:relative;margin:20rpx 30rpx}.bs-badge-img{width:35px;height:35px;float:left;border-radius:50%}.bs-badge-icon{width:6px;height:6px;border-radius:50%;background-color:red;position:absolute;right:0;top:0}

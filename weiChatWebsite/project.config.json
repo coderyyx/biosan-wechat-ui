@@ -10,7 +10,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "1.9.91",
 	"appid": "wx0da7e77467400a25",
-	"projectname": "biosanWeUI",
+	"projectname": "weiui",
 	"condition": {
 		"search": {
 			"current": -1,
