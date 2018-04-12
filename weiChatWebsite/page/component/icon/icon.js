@@ -47,6 +47,15 @@ Page({
       }, {
         class: "icon-jiantou6",
         name: "下箭头"
+      },{
+        class:"icon-chacha",
+        name:"叉"
+      },{
+        class:"icon-laba",
+        name:"喇叭"
+      },{
+        class:"icon-zhengque",
+        name:"正确"
       }]
   },
 
