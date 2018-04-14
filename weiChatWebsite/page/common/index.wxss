@@ -1,9 +1,21 @@
 .index-hd {
-  padding: 80rpx;
+  padding: 80rpx 20rpx;
   text-align: center;
 }
 .index-bd {
   padding: 0 30rpx 40rpx;
+}
+/* .exp-scroll{
+  max-height: 250rpx;
+  overflow-y: scroll;
+} */
+.index-exp{
+  margin-top: 30rpx;
+}
+
+.index-search{
+  margin-top: 30rpx;
+  text-align: left;
 }
 .index-ft {
   padding-bottom: 20rpx;

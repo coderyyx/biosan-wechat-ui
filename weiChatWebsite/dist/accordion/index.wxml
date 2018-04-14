@@ -1,17 +1,17 @@
 <template name="bs-accordion">
   <view class="container" >
-    <block wx:for="{{ bs_accordion.datas}}" wx:key="{{index}}">
-        <view class="header" data-item="{{item}}"
+    <block wx:for="{{ bs_accordion.datas}}" wx:key="{{index}}" wx:for-item="level1">
+        <view class="header" data-item="{{level1}}"
               data-index="{{index}}" bindtap="$bs_accordion_title_clicked">
             <view class="headerWrap">
-                <text class="headerText">{{item.title}}</text>
+                <text class="headerText">{{level1.title}}</text>
             </view>
-            <i class='iconfont arrow {{item.flag ? "icon-danjiantoushang" : "icon-jiantou6"}}'></i>
+            <i class='iconfont arrow {{level1.flag ? "icon-danjiantoushang" : "icon-jiantou6"}}' data-key="{{level1.flag}}"></i>
         </view>
-        <view wx:if="{{item.flag}}">
-            <view wx:for="{{item.childs}}" class="content" wx:key="{{index}}">
-                <i class="iconfont {{item.icon}}"/>
-                <text class="content-text">{{item.content}}</text>
+        <view wx:if="{{level1.flag}}">
+            <view wx:for="{{level1.childs}}" class="content" wx:key="{{index}}" data-item="item" wx:for-item="level2">
+                <i class="iconfont {{level2.icon}}"/>
+                <text class="content-text">{{level2.content}}</text>
             </view>
         </view>
     </block>

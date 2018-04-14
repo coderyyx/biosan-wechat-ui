@@ -35,8 +35,8 @@ Page(Object.assign({
         onLoad: function (options) {
             //组件初始化
             this.$bs_accordion_init({
-                defaultkey:"0",
-                activeKey:[],
+                defaultkey:"无",
+                activeKey:[ ],
                 datas:[
                     {
                         title: 'title',
