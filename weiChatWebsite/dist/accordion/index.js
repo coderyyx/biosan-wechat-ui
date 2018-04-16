@@ -24,10 +24,47 @@ const backFill = (defaultkey, activeKey, datas)=> {
 
 const bsAccordionController = {
     $bs_accordion_init: function (options = {}) {
-        console.log(options.datas)
+        let {
+            defaultkey='0',
+            activeKey = [],
+            datas = [
+                {
+                    title: 'title',
+                    flag: false,
+                    childs: [
+                        {
+                            content: 'content1',
+                            icon: ''
+                        },
+                        {
+                            content: 'content1',
+                            icon: ''
+                        }
+                    ]
+                },
+                {
+                    title: 'title2',
+                    flag: false,
+                    childs: [
+                        {
+                            content: 'content2',
+                            icon: ''
+                        },
+                        {
+                            content: 'content2',
+                            icon: ''
+                        }
+                    ]
+                }
+            ]
+
+        } = options;
+        // init
         this.setData({
             bs_accordion: {
-                datas:options.datas
+                defaultkey,
+                activeKey,
+                datas: backFill(defaultkey, activeKey, datas)
             }
         });
     },

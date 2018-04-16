@@ -9,6 +9,7 @@ import {bsSelectController} from './select/index.js';
 import {bsSegmentController} from './segment/index.js';
 import {bsPopoverController} from './popover/index.js';
 import {bsAccordionController} from './accordion/index.js';
+import {bsTabsController} from './tabs/index.js';
 export {
     bsTipsControll,
     bsToastController,
@@ -20,5 +21,6 @@ export {
     bsSelectController,
     bsSegmentController,
     bsPopoverController,
-    bsAccordionController
+    bsAccordionController,
+    bsTabsController
 }

@@ -1,0 +1,22 @@
+<template name="bs-tabs">
+  <!-- <view style="overflow:hidden;white-space:nowrap;width:100%"> -->
+  <scroll-view scroll-x="{{true}}" class="bs-tabs_navbar">
+      <block wx:for="{{bs_tabs.tabs}}" wx:key="{*this}">
+          <view id="{{index}}" class="bs-tabs_navbar_item {{bs_tabs.activeIndex == index ? 'bs-tabs_navbar_item_on' : ''}}" style="color:{{bs_tabs.activeIndex == index ?bs_tabs.selectColor:bs_tabs.textColor}};width:{{bs_tabs.tabWidth}}%;" bindtap="$bs_nav_tab_click">
+            <view class="bs-tabs_navbar_title">{{item.name}}{{sliderOffset}}</view>
+          </view>
+      </block>
+      <view class="bs-tabs_navbar_slider" style="left:{{bs_tabs.sliderOffset}};background-color:{{bs_tabs.selectColor||'#ccc'}};width:{{bs_tabs.sliderWidth}}%; transform: translateX({{bs_tabs.sliderOffset}}%); -webkit-transform: translateX({{bs_tabs.sliderOffset}}%);"></view>
+  </scroll-view>
+  <view style="width: 100%;height:{{bs_tabs.contentHeight}}px">
+    <swiper current="{{bs_tabs.activeIndex}}" duration="300" bindchange="$bs_swiper_change">
+      <block wx:for="{{bs_tabs.tabs}}" wx:key="{*this}">
+          <swiper-item id="{{index}}">
+            <view>{{item.content}}</view>
+          </swiper-item>
+      </block>
+    </swiper> 
+  </view>
+  <!-- </view> -->
+</template>
+
