@@ -23,7 +23,8 @@
       "page/component/doc/doc",
       "page/component/segment/segment",
       "page/component/popover/popover",
-      "page/component/accordion/accordion"
+      "page/component/accordion/accordion",
+      "page/component/tabs/tabs"
     ],
     "window": {
       "navigationBarTextStyle": "black",
