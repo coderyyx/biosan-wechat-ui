@@ -65,6 +65,13 @@
         <br />
         <a href="https://github.com/zhoujie198929" align="center">zhoujie</a>
       </td>
+      <td align="center">
+        <img width="90" height="90"
+        src="https://avatars1.githubusercontent.com/u/19941826?s=60&v=4">
+        <br />
+        <a href="https://github.com/zhoujie198929" align="center">huangxubing</a>
+      </td>
+      
        <td align="center">
         <img width="90" height="90"
         src="https://avatars3.githubusercontent.com/u/22619783?s=60&v=4">
