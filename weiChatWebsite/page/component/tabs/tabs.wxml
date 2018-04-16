@@ -1,0 +1,9 @@
+<import src="../../common/head.wxml" />
+<import src="../../common/foot.wxml" />
+<import src="../../common/api.wxml" />
+<import src="/dist/tabs/index.wxml" />
+
+<!-- <view class="page" style="width:200px;"> -->
+  <template is="bs-tabs" data="{{bs_tabs}}"/>
+<!-- </view> -->
+

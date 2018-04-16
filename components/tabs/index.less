@@ -1,0 +1,41 @@
+@import "../style/globalVariables.less";  
+.bs-tabs_navbar {
+    z-index: 500;
+    top: 0;
+    width: 100%;
+    white-space:nowrap;
+    overflow: hidden;
+    border-bottom:1px solid #ccc;
+}
+.bs-tabs_navbar_item {
+    position: relative;
+    display: inline-block;
+    flex: 1;
+    padding: 10rpx 0;
+    text-align: center;
+    font-size: 0;
+    height: 48rpx;
+    line-height: 48rpx;
+}
+
+.bs-tabs_navbar_item_on {
+    color: #ccc;
+}
+
+.bs-tabs_navbar_slider {
+    display: block;
+    content: " ";
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    background-color: #ccc;
+    transition: transform .3s;
+}
+
+.bs-tabs_navbar_title{
+    display: inline-block;
+    font-size: 15px;
+    max-width: 8em;
+    text-align: center;
+}
+

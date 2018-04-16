@@ -41,7 +41,7 @@ Page(Object.assign({
           id: 'func',
           name: '功能组件',
           open: false,
-          pages: ['progress', 'steps', 'loading', 'dialog', 'popup', 'toast','actionSheet','segment','accordion','popover']
+          pages: ['progress', 'steps', 'loading', 'dialog', 'popup', 'toast','actionSheet','segment','accordion','popover','tabs']
         },
         {
           id: 'compose',
