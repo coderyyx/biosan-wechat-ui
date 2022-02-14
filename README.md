@@ -1,4 +1,4 @@
-# biosan-wei-UI
+# biosan-wechat-ui
   `BioSan 前端团队出品`
   
 <p align="center">
